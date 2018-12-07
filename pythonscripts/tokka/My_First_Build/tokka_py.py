@@ -1,6 +1,0 @@
-import requests
-import pprint
-header = {'Authorization': 'OAuth oauth_token="ConsumerKey%3Dc0c11d7a-48c1-461d-8be9-56e9fb60b28f%26ExpiresOn%3D1525938602%26HMACSecrets%3Dh9y1z5f2ZGKJ4YjAcuSJ62x3hYb1s9N4-HjKXclNoMbdotRZlHfvCeadFyXswMZ3qPMWlB6LiRZp-7oNaqTqeJOcyHGGD-7Yk1IAXXBF3eKnY6Pi-icWok0BorAyXUg1IkmwTnUemNMSlodhVgJc8A%253D%253D%26KeysVersion%3Dfcecee6b-0c23-4df5-a332-799f9a515c16%26RSASHA1%3DdCM_YFznZnZQU9tTG9KwqixwBbckxe-o4ux3jc58f7nutH7p5by_GnsydSTsqK-bZG4vgPn_dtY81tCs6Cv0wCgK2jZLZHQxYhXXbn4p5fvA-8tGwx7xYY-OPorg5mcb7apvB-lNoLQwtGdWyGQY8YAc8zPDI9zO3Zy39kWkAHO2Wvhd3p_HA2jDOn_ihKAjulzj4S0D61UyBfoJ8UeMlRyEJWtH2wY4hGoeJso8918a5EJ0GeJHrYyc-4yq0KkWOsBdDT3Njqrlv2sphaNXB68KYRPpaPuaasscXh__9t-l0MqCKV_H9TJymOwY7A-NXkjCGAwuHZuA0Epxi4-lJA%253D%253D", oauth_consumer_key="c0c11d7a-48c1-461d-8be9-56e9fb60b28f", oauth_signature_method="PLAINTEXT", oauth_timestamp="1525935003", oauth_nonce="258911727550769", oauth_version="1.0", oauth_signature="Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l%26UOuZvLlxNRqyfgKRl2nfF_YOuh43-hE0"', 'Content-Type': 'application/json'}
-res = requests.get('http://services.devhealtheintent.net/rc-dashboard-config-service/age_categories', headers=header)
-pprint.pprint(res.text)
-pprint.pprint(res.json())
