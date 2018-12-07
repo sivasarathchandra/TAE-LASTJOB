@@ -5,9 +5,9 @@ import logging
 import sys
 import datetime
 
-username = 'kb055697'
-password = 'kb055697'
-hostname = 'pophdevutil53.northamerica.cerner.net'
+username = ''
+password = ''
+hostname = ''
 command = 'ccl'
 
 logger = logging.getLogger()
