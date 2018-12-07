@@ -1,9 +1,9 @@
 import threading, paramiko, time, os
 
-sshPassword = 'Pavan!1251'
-sshUsername = 'SC057441'
-sshServer = "pophdevutil53.northamerica.cerner.net"
-oozie_cmd = 'oozie job -oozie http://pophdevutil58.northamerica.cerner.net:11000/oozie/  -info 0622975-180409134304457-oozie-oozi-C'
+sshPassword = ''
+sshUsername = ''
+sshServer = ""
+oozie_cmd = ''
 
 class ssh:
     shell = None
