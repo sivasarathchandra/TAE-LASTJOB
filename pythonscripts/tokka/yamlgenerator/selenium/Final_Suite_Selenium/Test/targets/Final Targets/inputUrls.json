@@ -1,0 +1,7 @@
+{
+  "stagingBaseUrls": "https://adventisthealthsystem.analytics.staginghealtheintent.com/explore/revenue_cycle/config/config/",
+  "devBaseUrls": "https://adventisthealthsystem.analytics.devcernerpophealth.com/explore/revenue_cycle/config/config/",
+  "urllist": ["Total Adjustments", "Total Adjustments as % of Gross Revenue", "Bad Debt", "Bad Debt as % of Gross Revenue", "Charity Care", "Charity Care as % of Gross Revenue", "Charity as % of Uncompensated Care"],
+  "adjustmentList": ["total_adjustments","adjustments_percentage"],
+  "facility_name":"BLR_RC_Analytics"
+}

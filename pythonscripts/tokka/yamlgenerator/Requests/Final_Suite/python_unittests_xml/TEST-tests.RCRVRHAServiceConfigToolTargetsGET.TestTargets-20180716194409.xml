@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="tests.RCRVRHAServiceConfigToolTargetsGET.TestTargets-20180716194409" tests="6" time="33.933">
+	<testcase classname="tests.RCRVRHAServiceConfigToolTargetsGET.TestTargets" name="test_step_2_unauthorized" time="5.505"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolTargetsGET.TestTargets" name="test_step_3_NotFound" time="5.375"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolTargetsGET.TestTargets" name="test_step_4_badRequest" time="5.493"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolTargetsGET.TestTargets" name="test_step_5_InvalidClient_ID" time="5.414"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolTargetsGET.TestTargets" name="test_step_6_InvalidMetric_ID" time="5.942"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolTargetsGET.TestTargets" name="test_step_1_getRequest" time="6.204">
+		<error message="Expecting value: line 1 column 1 (char 0)" type="JSONDecodeError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\tests\RCRVRHAServiceConfigToolTargetsGET.py", line 78, in test_step_1_getRequest
+    for self.iteration in self.res.json():
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\models.py", line 896, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\json\__init__.py", line 354, in loads
+    return _default_decoder.decode(s)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\json\decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

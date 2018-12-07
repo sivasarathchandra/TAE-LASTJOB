@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="ChopsFE-20180706142706" tests="1" time="46.888">
+	<testcase classname="ChopsFE" name="test_front_end" time="46.888">
+		<error message="'NoneType' object has no attribute 'click'" type="AttributeError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/SC057441/Desktop/Any/pythonscripts/tokka/yamlgenerator/Requests/Final_Suite/Tests/sample.py", line 51, in test_front_end
+    self.driver.find_element_by_xpath('/html/body/div[2]/div/div/div[3]/div/div[1]/div/div/div[2]/div/div/div/div/div[2]/ul/li[1]/div/div/div/ul/li[1]/div/div/div/div[1]/span/span/b').click()
+AttributeError: 'NoneType' object has no attribute 'click'
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

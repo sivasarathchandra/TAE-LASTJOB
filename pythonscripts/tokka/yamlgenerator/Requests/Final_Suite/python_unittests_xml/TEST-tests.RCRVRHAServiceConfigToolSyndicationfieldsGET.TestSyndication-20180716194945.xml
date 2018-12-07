@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.RCRVRHAServiceConfigToolSyndicationfieldsGET.TestSyndication-20180716194945" tests="12" time="77.077">
+	<testcase classname="tests.RCRVRHAServiceConfigToolSyndicationfieldsGET.TestSyndication" name="test_step_10_missingtable_name" time="6.017"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolSyndicationfieldsGET.TestSyndication" name="test_step_11_invalidfield_name" time="6.363"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolSyndicationfieldsGET.TestSyndication" name="test_step_12_invalidorder_number" time="5.933"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolSyndicationfieldsGET.TestSyndication" name="test_step_1_getRequest" time="8.650"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolSyndicationfieldsGET.TestSyndication" name="test_step_2_unauthorized" time="6.793"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolSyndicationfieldsGET.TestSyndication" name="test_step_3_NotFound" time="6.039"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolSyndicationfieldsGET.TestSyndication" name="test_step_4_badRequest" time="6.559"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolSyndicationfieldsGET.TestSyndication" name="test_step_5_InvalidClient_ID" time="6.779"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolSyndicationfieldsGET.TestSyndication" name="test_step_6_Invalidtable_name" time="5.917"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolSyndicationfieldsGET.TestSyndication" name="test_step_7_nullClient_ID" time="5.942"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolSyndicationfieldsGET.TestSyndication" name="test_step_8_nulltable_name" time="5.726"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolSyndicationfieldsGET.TestSyndication" name="test_step_9_missingClient_ID" time="6.360"/>
+	<system-out>
+<![CDATA[java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

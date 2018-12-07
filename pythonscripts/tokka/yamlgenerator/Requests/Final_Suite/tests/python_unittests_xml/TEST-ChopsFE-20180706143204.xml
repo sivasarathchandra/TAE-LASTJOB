@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="ChopsFE-20180706143204" tests="1" time="69.192">
+	<testcase classname="ChopsFE" name="test_front_end" time="69.192">
+		<error message="list index out of range" type="IndexError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/SC057441/Desktop/Any/pythonscripts/tokka/yamlgenerator/Requests/Final_Suite/Tests/sample.py", line 53, in test_front_end
+    self.driver.find_elements_by_xpath(self.xpath_0 + str(value) + self.xpath_1)[0].click()
+IndexError: list index out of range
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

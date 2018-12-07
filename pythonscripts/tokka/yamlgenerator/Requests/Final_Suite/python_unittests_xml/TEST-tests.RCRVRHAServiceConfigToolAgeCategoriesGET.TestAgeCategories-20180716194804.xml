@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories-20180716194804" tests="7" time="43.613">
+	<testcase classname="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories" name="test_step_1_getRequest" time="6.552"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories" name="test_step_2_unauthorized" time="5.727"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories" name="test_step_3_NotFound" time="5.838"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories" name="test_step_4_Conflicts" time="6.301"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories" name="test_step_5_badRequest" time="6.593"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories" name="test_step_6_noContent" time="6.226"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories" name="test_step_7_invalidRecord" time="6.377"/>
+	<system-out>
+<![CDATA[java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+database.devhealtheintent.net rc_config_svc rc_config_svc rcanalytics_config_service
+<pymysql.connections.Connection object at 0x05E126B0>
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+database.devhealtheintent.net rc_config_svc rc_config_svc rcanalytics_config_service
+<pymysql.connections.Connection object at 0x05E12E70>
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+database.devhealtheintent.net rc_config_svc rc_config_svc rcanalytics_config_service
+<pymysql.connections.Connection object at 0x05E23E50>
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+database.devhealtheintent.net rc_config_svc rc_config_svc rcanalytics_config_service
+<pymysql.connections.Connection object at 0x05E23F70>
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+database.devhealtheintent.net rc_config_svc rc_config_svc rcanalytics_config_service
+<pymysql.connections.Connection object at 0x05E23F10>
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+database.devhealtheintent.net rc_config_svc rc_config_svc rcanalytics_config_service
+<pymysql.connections.Connection object at 0x05E4D0D0>
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+database.devhealtheintent.net rc_config_svc rc_config_svc rcanalytics_config_service
+<pymysql.connections.Connection object at 0x05E4D870>
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

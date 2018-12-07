@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut-20180716200334" tests="11" time="76.922">
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step001_postRequest_new_id" time="7.990"/>
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step002_putRequest_invalid_config_id" time="6.368"/>
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step003_putRequest_empty_key_value" time="8.152"/>
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step004_putRequest_empty_clientid" time="7.487"/>
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step005_putRequest_adding_POS_cash_collections" time="6.740"/>
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step006_putRequest_adding_POS_days" time="7.095"/>
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step007_putRequest_adding_days_in_dnfb" time="6.569"/>
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step008_putRequest_adding_days_in_dnfc" time="7.201"/>
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step009_putRequest_adding_net_revenue" time="6.905"/>
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step010_putRequest_existing_id" time="6.355"/>
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step012_putRequest_remove_extra_rows" time="6.060"/>
+	<system-out>
+<![CDATA[java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

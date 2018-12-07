@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="Tests.RCR_VR_HA_Service_ConfigTool_Organization_Map_PUT.TestOrganizationMapsDev-20180716132459" tests="4" time="24.914">
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Organization_Map_PUT.TestOrganizationMapsDev" name="test_Step1_putRequest_newID_validParams" time="6.357"/>
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Organization_Map_PUT.TestOrganizationMapsDev" name="test_Step2_putRequest_newID_invalidParams_error" time="6.511"/>
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Organization_Map_PUT.TestOrganizationMapsDev" name="test_Step3_putRequest_IDExists_validParams" time="6.204"/>
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Organization_Map_PUT.TestOrganizationMapsDev" name="test_Step4_putRequest_IDExists_invalidParams_error" time="5.842"/>
+	<system-out>
+<![CDATA[java -jar Tests\auth-header-1.3.jar -k 99bb308b-0a2b-4547-a967-b6287914469d -s cHowMqwBMh2N4ShhBDrbcRZNLzo76VrA -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar Tests\auth-header-1.3.jar -k 99bb308b-0a2b-4547-a967-b6287914469d -s cHowMqwBMh2N4ShhBDrbcRZNLzo76VrA -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar Tests\auth-header-1.3.jar -k 99bb308b-0a2b-4547-a967-b6287914469d -s cHowMqwBMh2N4ShhBDrbcRZNLzo76VrA -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar Tests\auth-header-1.3.jar -k 99bb308b-0a2b-4547-a967-b6287914469d -s cHowMqwBMh2N4ShhBDrbcRZNLzo76VrA -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

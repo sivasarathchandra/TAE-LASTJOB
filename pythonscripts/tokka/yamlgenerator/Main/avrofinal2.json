@@ -1,0 +1,1474 @@
+[
+    {
+        "key": {
+            "dataPartitionId": "95a62580-8f51-4d89-a9bd-41c09c8fb30d",
+            "personId": "719"
+        },
+        "value": {
+            "encounterId": "encounter_719",
+            "uid": "/partition:95a62580-8f51-4d89-a9bd-41c09c8fb30d/person:719,std:encntr_encounter_719",
+            "sourceId": "SourceId_encounters",
+            "personId": "719",
+            "reasonForVisit": {
+                "raw": {
+                    "id": "218456",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": null,
+                    "translations": []
+                },
+                "standard": {
+                    "id": "218456",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "reasonForVisitFreeText": "surgery",
+            "financialClass": {
+                "raw": {
+                    "id": "219345",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "HMO",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "219345",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "aliases": [
+                {
+                    "type": {
+                        "raw": {
+                            "id": "783009",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Inpatient",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "783009",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    "value": "value",
+                    "assigningAuthority": "authority"
+                },
+                {
+                    "type": {
+                        "raw": {
+                            "id": "AN",
+                            "codingSystemId": "2.16.840.1.113883.12.203",
+                            "display": null,
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "AN",
+                            "codingSystemId": "2.16.840.1.113883.12.203",
+                            "primaryDisplay": null
+                        }
+                    },
+                    "value": "56182",
+                    "assigningAuthority": null
+                }
+            ],
+            "facility": {
+                "sourceId": "facId",
+                "name": "facility",
+                "timeZoneId": "America/Chicago",
+                "types": [
+                    {
+                        "raw": {
+                            "id": "12345",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Neonatal Intensive Care Unit",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "12345",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    {
+                        "raw": {
+                            "id": "121212",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Medical Service",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "121212",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    }
+                ]
+            },
+            "building": {
+                "sourceId": "fbldId",
+                "name": "building",
+                "timeZoneId": "America/Chicago",
+                "types": [
+                    {
+                        "raw": {
+                            "id": "12345",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Neonatal Intensive Care Unit",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "12345",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    {
+                        "raw": {
+                            "id": "121212",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Medical Service",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "121212",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    }
+                ]
+            },
+            "serviceDeliveryLocation": {
+                "sourceId": "servdellocId",
+                "name": "servicedeliverylocation",
+                "timeZoneId": "America/Chicago",
+                "types": [
+                    {
+                        "raw": {
+                            "id": "12345",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Neonatal Intensive Care Unit",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "12345",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    {
+                        "raw": {
+                            "id": "121212",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Medical Service",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "121212",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    }
+                ]
+            },
+            "hospitalService": {
+                "raw": {
+                    "id": "782908",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "Ambulatory",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "782908",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "classification": {
+                "raw": {
+                    "id": "567024",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "Emergency",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "567024",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "type": {
+                "raw": {
+                    "id": "783009",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "Inpatient",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "783009",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "dischargeDisposition": {
+                "raw": {
+                    "id": "243560",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "Skilled Nursing",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "243560",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "dischargeToLocation": {
+                "raw": {
+                    "id": "671094",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "Acute Care",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "671094",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "organization": {
+                "organizationId": "1121",
+                "aliases": [
+                    {
+                        "value": "orgId1",
+                        "type": "NPI",
+                        "assigningAuthority": "2.16.840.1.113883.4.6"
+                    }
+                ],
+                "name": "orgName1"
+            },
+            "serviceProviderOrg": {
+                "organizationId": "orgId",
+                "aliases": [
+                    {
+                        "value": "orgValue1",
+                        "type": "TAX",
+                        "assigningAuthority": null
+                    },
+                    {
+                        "value": "orgValue2",
+                        "type": "NPI",
+                        "assigningAuthority": "2.16.840.1.113883.4.6"
+                    },
+                    {
+                        "value": "orgValue3",
+                        "type": "EXTERNAL",
+                        "assigningAuthority": "authority"
+                    }
+                ],
+                "name": "serviceProviderOrg"
+            },
+            "relatedProviders": [
+                {
+                    "providerRelationshipId": null,
+                    "provider": {
+                        "providerId": "providerId",
+                        "aliases": [
+                            {
+                                "value": "value",
+                                "type": "NPI",
+                                "assigningAuthority": "2.16.840.1.113883.4.6"
+                            }
+                        ],
+                        "name": null,
+                        "fullName": "fullName",
+                        "middleName": null,
+                        "suffix": null
+                    },
+                    "type": null,
+                    "beginDate": null,
+                    "endDate": null
+                }
+            ],
+            "encounterNumber": "56182",
+            "admissionSource": {
+                "raw": {
+                    "id": "309194",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "Emergency Room",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "309194",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "hospitalizationStartDate": "2011-01-11",
+            "readmission": false,
+            "serviceDate": "2014-02-15",
+            "dischargeDate": "2011-09-01",
+            "benefitCoverages": [
+                {
+                    "benefitCoverageId": "benCovId",
+                    "memberId": "memberId",
+                    "relationToSubscriber": {
+                        "raw": {
+                            "id": "782119",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Child",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "782119",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    "subscriberNumber": "03",
+                    "priorityRank": 1,
+                    "plan": {
+                        "sourceId": "sourceId",
+                        "benefitPlanId": "benefitPlanId",
+                        "standardBenefitPlanId": "standardBenefitPlanId",
+                        "ids": [
+                            {
+                                "value": "value",
+                                "type": "EXTERNAL",
+                                "assigningAuthority": "assigningAuthority"
+                            }
+                        ],
+                        "name": "name",
+                        "payerName": "payerName",
+                        "payerSourceId": "payerSourceId",
+                        "policyOrGroupNumber": "908393",
+                        "policyOrGroupName": "group",
+                        "benefitType": {
+                            "raw": {
+                                "id": "PPO",
+                                "codingSystemId": "urn:oid:2.16.840.1.113883.5.14",
+                                "display": "PPO",
+                                "translations": []
+                            },
+                            "standard": {
+                                "id": "PPO",
+                                "codingSystemId": "2.16.840.1.113883.5.14",
+                                "primaryDisplay": null
+                            }
+                        },
+                        "lineOfBusiness": "lineof business"
+                    },
+                    "benefitPlan": {
+                        "raw": {
+                            "sourceId": "sourceId",
+                            "benefitPlanId": "benefitPlanId",
+                            "standardBenefitPlanId": "standardBenefitPlanId",
+                            "ids": [
+                                {
+                                    "value": "value",
+                                    "type": "EXTERNAL",
+                                    "assigningAuthority": "assigningAuthority"
+                                }
+                            ],
+                            "name": "name",
+                            "payerSourceId": "payerSourceId",
+                            "payerName": "payerName",
+                            "policyOrGroupNumber": "908393",
+                            "policyOrGroupName": "group",
+                            "benefitType": {
+                                "id": "PPO",
+                                "codingSystemId": "urn:oid:2.16.840.1.113883.5.14",
+                                "display": "PPO",
+                                "translations": []
+                            },
+                            "lineOfBusiness": "lineof business"
+                        },
+                        "standard": null
+                    },
+                    "beginDate": "2011-09-09",
+                    "endDate": "2012-01-01"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": {
+                        "sourceId": "facId",
+                        "name": "facility",
+                        "timeZoneId": "America/Chicago",
+                        "types": [
+                            {
+                                "raw": {
+                                    "id": "12345",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Neonatal Intensive Care Unit",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "12345",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            },
+                            {
+                                "raw": {
+                                    "id": "121212",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Medical Service",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "121212",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            }
+                        ]
+                    },
+                    "serviceProviderOrg": {
+                        "organizationId": "orgId",
+                        "aliases": [
+                            {
+                                "value": "orgValue1",
+                                "type": "TAX",
+                                "assigningAuthority": null
+                            },
+                            {
+                                "value": "orgValue2",
+                                "type": "NPI",
+                                "assigningAuthority": "2.16.840.1.113883.4.6"
+                            },
+                            {
+                                "value": "orgValue3",
+                                "type": "EXTERNAL",
+                                "assigningAuthority": "authority"
+                            }
+                        ],
+                        "name": "serviceProviderOrgName"
+                    },
+                    "building": {
+                        "sourceId": "fbldId",
+                        "name": "building",
+                        "timeZoneId": "America/Chicago",
+                        "types": [
+                            {
+                                "raw": {
+                                    "id": "12345",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Neonatal Intensive Care Unit",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "12345",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            },
+                            {
+                                "raw": {
+                                    "id": "121212",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Medical Service",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "121212",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            }
+                        ]
+                    },
+                    "nurseUnit": {
+                        "sourceId": "nuId",
+                        "name": "nurseunit",
+                        "timeZoneId": "America/Chicago",
+                        "types": [
+                            {
+                                "raw": {
+                                    "id": "12345",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Neonatal Intensive Care Unit",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "12345",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            },
+                            {
+                                "raw": {
+                                    "id": "121212",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Medical Service",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "121212",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            }
+                        ]
+                    },
+                    "room": {
+                        "sourceId": "roomId",
+                        "name": "room",
+                        "timeZoneId": "America/Chicago",
+                        "types": [
+                            {
+                                "raw": {
+                                    "id": "12345",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Neonatal Intensive Care Unit",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "12345",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            },
+                            {
+                                "raw": {
+                                    "id": "121212",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Medical Service",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "121212",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            }
+                        ]
+                    },
+                    "bed": {
+                        "sourceId": "bedId",
+                        "name": "bed",
+                        "timeZoneId": "America/Chicago",
+                        "types": [
+                            {
+                                "raw": {
+                                    "id": "12345",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Neonatal Intensive Care Unit",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "12345",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            },
+                            {
+                                "raw": {
+                                    "id": "121212",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Medical Service",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "121212",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            }
+                        ]
+                    },
+                    "serviceDeliveryLocation": {
+                        "sourceId": "servdellocId",
+                        "name": "servicedeliverylocation",
+                        "timeZoneId": "America/Chicago",
+                        "types": [
+                            {
+                                "raw": {
+                                    "id": "12345",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Neonatal Intensive Care Unit",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "12345",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            },
+                            {
+                                "raw": {
+                                    "id": "121212",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Medical Service",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "121212",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            }
+                        ]
+                    },
+                    "beginDate": "2011-01-01",
+                    "endDate": "2011-02-03",
+                    "estimatedDepartureDate": "2011-02-04"
+                }
+            ],
+            "encounterTypes": [
+                {
+                    "type": {
+                        "raw": {
+                            "id": "783009",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Inpatient",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "783009",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    "classification": {
+                        "raw": {
+                            "id": "567024",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Emergency",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "567024",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    "beginDate": "2011-01-01",
+                    "endDate": "2011-02-03"
+                }
+            ],
+            "hospitalServices": [
+                {
+                    "service": {
+                        "raw": {
+                            "id": "782908",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Ambulatory",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "782908",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    "beginDate": "2011-01-01",
+                    "endDate": "2011-03-02"
+                }
+            ],
+            "admissionType": {
+                "raw": {
+                    "id": "309202",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "Accident",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "309202",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "status": {
+                "raw": {
+                    "id": "cancelled",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.5.14",
+                    "display": "cancelled",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "cancelled",
+                    "codingSystemId": "2.16.840.1.113883.5.14",
+                    "primaryDisplay": null
+                }
+            },
+            "estimatedArrivalDate": "2011-01-09",
+            "estimatedDepartureDate": "2011-01-10",
+            "actualArrivalDate": "2011-01-10",
+            "source": {
+                "id": "SourceId_encounters",
+                "type": "_NOT_VALUED",
+                "version": "version",
+                "rawEntityLocators": [
+                    {
+                        "entityKey": "/source:243fc1d0-3035-44d8-b58c-15ad2c0bc6f4/type:ENCOUNTER/name:ENCOUNTER/append:20140107",
+                        "version": 76267,
+                        "hdfsPath": null,
+                        "midasVersion": null,
+                        "midasJarName": null
+                    }
+                ],
+                "normalizedEntityLocator": null,
+                "contributingOrganization": {
+                    "organizationId": "orgId",
+                    "aliases": [
+                        {
+                            "value": "orgValue1",
+                            "type": "TAX",
+                            "assigningAuthority": null
+                        },
+                        {
+                            "value": "orgValue2",
+                            "type": "NPI",
+                            "assigningAuthority": "2.16.840.1.113883.4.6"
+                        },
+                        {
+                            "value": "orgValue3",
+                            "type": "EXTERNAL",
+                            "assigningAuthority": "authority"
+                        }
+                    ],
+                    "name": "serviceProviderOrg"
+                },
+                "releaseTag": null
+            },
+            "active": true
+        }
+    },
+    {
+        "key": {
+            "dataPartitionId": "95a62580-8f51-4d89-a9bd-41c09c8fb30d",
+            "personId": "719"
+        },
+        "value": {
+            "encounterId": "encounter_720",
+            "uid": "/partition:95a62580-8f51-4d89-a9bd-41c09c8fb30d/person:719,std:encntr_encounter_720",
+            "sourceId": "SourceId_encounters",
+            "personId": "719",
+            "reasonForVisit": {
+                "raw": {
+                    "id": "218456",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": null,
+                    "translations": []
+                },
+                "standard": {
+                    "id": "218456",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "reasonForVisitFreeText": "surgery",
+            "financialClass": {
+                "raw": {
+                    "id": "219345",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "HMO",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "219345",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "aliases": [
+                {
+                    "type": {
+                        "raw": {
+                            "id": "783009",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Inpatient",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "783009",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    "value": "value",
+                    "assigningAuthority": "authority"
+                },
+                {
+                    "type": {
+                        "raw": {
+                            "id": "AN",
+                            "codingSystemId": "2.16.840.1.113883.12.203",
+                            "display": null,
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "AN",
+                            "codingSystemId": "2.16.840.1.113883.12.203",
+                            "primaryDisplay": null
+                        }
+                    },
+                    "value": "56182",
+                    "assigningAuthority": null
+                }
+            ],
+            "facility": {
+                "sourceId": "facId",
+                "name": "facility",
+                "timeZoneId": "America/Chicago",
+                "types": [
+                    {
+                        "raw": {
+                            "id": "12345",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Neonatal Intensive Care Unit",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "12345",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    {
+                        "raw": {
+                            "id": "121212",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Medical Service",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "121212",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    }
+                ]
+            },
+            "building": {
+                "sourceId": "fbldId",
+                "name": "building",
+                "timeZoneId": "America/Chicago",
+                "types": [
+                    {
+                        "raw": {
+                            "id": "12345",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Neonatal Intensive Care Unit",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "12345",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    {
+                        "raw": {
+                            "id": "121212",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Medical Service",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "121212",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    }
+                ]
+            },
+            "serviceDeliveryLocation": {
+                "sourceId": "servdellocId",
+                "name": "servicedeliverylocation",
+                "timeZoneId": "America/Chicago",
+                "types": [
+                    {
+                        "raw": {
+                            "id": "12345",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Neonatal Intensive Care Unit",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "12345",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    {
+                        "raw": {
+                            "id": "121212",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Medical Service",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "121212",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    }
+                ]
+            },
+            "hospitalService": {
+                "raw": {
+                    "id": "782908",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "Ambulatory",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "782908",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "classification": {
+                "raw": {
+                    "id": "567024",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "Emergency",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "567024",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "type": {
+                "raw": {
+                    "id": "783009",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "Inpatient",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "783009",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "dischargeDisposition": {
+                "raw": {
+                    "id": "243560",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "Skilled Nursing",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "243560",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "dischargeToLocation": {
+                "raw": {
+                    "id": "671094",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "Acute Care",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "671094",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "organization": {
+                "organizationId": "1121",
+                "aliases": [
+                    {
+                        "value": "orgId1",
+                        "type": "NPI",
+                        "assigningAuthority": "2.16.840.1.113883.4.6"
+                    }
+                ],
+                "name": "orgName1"
+            },
+            "serviceProviderOrg": {
+                "organizationId": "orgId",
+                "aliases": [
+                    {
+                        "value": "orgValue1",
+                        "type": "TAX",
+                        "assigningAuthority": null
+                    },
+                    {
+                        "value": "orgValue2",
+                        "type": "NPI",
+                        "assigningAuthority": "2.16.840.1.113883.4.6"
+                    },
+                    {
+                        "value": "orgValue3",
+                        "type": "EXTERNAL",
+                        "assigningAuthority": "authority"
+                    }
+                ],
+                "name": "serviceProviderOrg"
+            },
+            "relatedProviders": [
+                {
+                    "providerRelationshipId": null,
+                    "provider": {
+                        "providerId": "providerId",
+                        "aliases": [
+                            {
+                                "value": "value",
+                                "type": "NPI",
+                                "assigningAuthority": "2.16.840.1.113883.4.6"
+                            }
+                        ],
+                        "name": null,
+                        "fullName": "fullName",
+                        "middleName": null,
+                        "suffix": null
+                    },
+                    "type": null,
+                    "beginDate": null,
+                    "endDate": null
+                }
+            ],
+            "encounterNumber": "56182",
+            "admissionSource": {
+                "raw": {
+                    "id": "309194",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "Emergency Room",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "309194",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "hospitalizationStartDate": "2011-01-11",
+            "readmission": false,
+            "serviceDate": "2014-02-15",
+            "dischargeDate": "2011-09-01",
+            "benefitCoverages": [
+                {
+                    "benefitCoverageId": "benCovId",
+                    "memberId": "memberId",
+                    "relationToSubscriber": {
+                        "raw": {
+                            "id": "782119",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Child",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "782119",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    "subscriberNumber": "03",
+                    "priorityRank": 1,
+                    "plan": {
+                        "sourceId": "sourceId",
+                        "benefitPlanId": "benefitPlanId",
+                        "standardBenefitPlanId": "standardBenefitPlanId",
+                        "ids": [
+                            {
+                                "value": "value",
+                                "type": "EXTERNAL",
+                                "assigningAuthority": "assigningAuthority"
+                            }
+                        ],
+                        "name": "name",
+                        "payerName": "payerName",
+                        "payerSourceId": "payerSourceId",
+                        "policyOrGroupNumber": "908393",
+                        "policyOrGroupName": "group",
+                        "benefitType": {
+                            "raw": {
+                                "id": "PPO",
+                                "codingSystemId": "urn:oid:2.16.840.1.113883.5.14",
+                                "display": "PPO",
+                                "translations": []
+                            },
+                            "standard": {
+                                "id": "PPO",
+                                "codingSystemId": "2.16.840.1.113883.5.14",
+                                "primaryDisplay": null
+                            }
+                        },
+                        "lineOfBusiness": "lineof business"
+                    },
+                    "benefitPlan": {
+                        "raw": {
+                            "sourceId": "sourceId",
+                            "benefitPlanId": "benefitPlanId",
+                            "standardBenefitPlanId": "standardBenefitPlanId",
+                            "ids": [
+                                {
+                                    "value": "value",
+                                    "type": "EXTERNAL",
+                                    "assigningAuthority": "assigningAuthority"
+                                }
+                            ],
+                            "name": "name",
+                            "payerSourceId": "payerSourceId",
+                            "payerName": "payerName",
+                            "policyOrGroupNumber": "908393",
+                            "policyOrGroupName": "group",
+                            "benefitType": {
+                                "id": "PPO",
+                                "codingSystemId": "urn:oid:2.16.840.1.113883.5.14",
+                                "display": "PPO",
+                                "translations": []
+                            },
+                            "lineOfBusiness": "lineof business"
+                        },
+                        "standard": null
+                    },
+                    "beginDate": "2011-09-09",
+                    "endDate": "2012-01-01"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": {
+                        "sourceId": "facId",
+                        "name": "facility",
+                        "timeZoneId": "America/Chicago",
+                        "types": [
+                            {
+                                "raw": {
+                                    "id": "12345",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Neonatal Intensive Care Unit",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "12345",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            },
+                            {
+                                "raw": {
+                                    "id": "121212",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Medical Service",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "121212",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            }
+                        ]
+                    },
+                    "serviceProviderOrg": {
+                        "organizationId": "orgId",
+                        "aliases": [
+                            {
+                                "value": "orgValue1",
+                                "type": "TAX",
+                                "assigningAuthority": null
+                            },
+                            {
+                                "value": "orgValue2",
+                                "type": "NPI",
+                                "assigningAuthority": "2.16.840.1.113883.4.6"
+                            },
+                            {
+                                "value": "orgValue3",
+                                "type": "EXTERNAL",
+                                "assigningAuthority": "authority"
+                            }
+                        ],
+                        "name": "serviceProviderOrgName"
+                    },
+                    "building": {
+                        "sourceId": "fbldId",
+                        "name": "building",
+                        "timeZoneId": "America/Chicago",
+                        "types": [
+                            {
+                                "raw": {
+                                    "id": "12345",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Neonatal Intensive Care Unit",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "12345",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            },
+                            {
+                                "raw": {
+                                    "id": "121212",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Medical Service",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "121212",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            }
+                        ]
+                    },
+                    "nurseUnit": {
+                        "sourceId": "nuId",
+                        "name": "nurseunit",
+                        "timeZoneId": "America/Chicago",
+                        "types": [
+                            {
+                                "raw": {
+                                    "id": "12345",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Neonatal Intensive Care Unit",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "12345",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            },
+                            {
+                                "raw": {
+                                    "id": "121212",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Medical Service",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "121212",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            }
+                        ]
+                    },
+                    "room": {
+                        "sourceId": "roomId",
+                        "name": "room",
+                        "timeZoneId": "America/Chicago",
+                        "types": [
+                            {
+                                "raw": {
+                                    "id": "12345",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Neonatal Intensive Care Unit",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "12345",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            },
+                            {
+                                "raw": {
+                                    "id": "121212",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Medical Service",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "121212",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            }
+                        ]
+                    },
+                    "bed": {
+                        "sourceId": "bedId",
+                        "name": "bed",
+                        "timeZoneId": "America/Chicago",
+                        "types": [
+                            {
+                                "raw": {
+                                    "id": "12345",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Neonatal Intensive Care Unit",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "12345",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            },
+                            {
+                                "raw": {
+                                    "id": "121212",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Medical Service",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "121212",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            }
+                        ]
+                    },
+                    "serviceDeliveryLocation": {
+                        "sourceId": "servdellocId",
+                        "name": "servicedeliverylocation",
+                        "timeZoneId": "America/Chicago",
+                        "types": [
+                            {
+                                "raw": {
+                                    "id": "12345",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Neonatal Intensive Care Unit",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "12345",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            },
+                            {
+                                "raw": {
+                                    "id": "121212",
+                                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                                    "display": "Medical Service",
+                                    "translations": []
+                                },
+                                "standard": {
+                                    "id": "121212",
+                                    "codingSystemId": "2.16.840.1.113883.6.96",
+                                    "primaryDisplay": null
+                                }
+                            }
+                        ]
+                    },
+                    "beginDate": "2011-01-01",
+                    "endDate": "2011-02-03",
+                    "estimatedDepartureDate": "2011-02-04"
+                }
+            ],
+            "encounterTypes": [
+                {
+                    "type": {
+                        "raw": {
+                            "id": "783009",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Inpatient",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "783009",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    "classification": {
+                        "raw": {
+                            "id": "567024",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Emergency",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "567024",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    "beginDate": "2011-01-01",
+                    "endDate": "2011-02-03"
+                }
+            ],
+            "hospitalServices": [
+                {
+                    "service": {
+                        "raw": {
+                            "id": "782908",
+                            "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                            "display": "Ambulatory",
+                            "translations": []
+                        },
+                        "standard": {
+                            "id": "782908",
+                            "codingSystemId": "2.16.840.1.113883.6.96",
+                            "primaryDisplay": null
+                        }
+                    },
+                    "beginDate": "2011-01-01",
+                    "endDate": "2011-03-02"
+                }
+            ],
+            "admissionType": {
+                "raw": {
+                    "id": "309202",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.6.96",
+                    "display": "Accident",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "309202",
+                    "codingSystemId": "2.16.840.1.113883.6.96",
+                    "primaryDisplay": null
+                }
+            },
+            "status": {
+                "raw": {
+                    "id": "cancelled",
+                    "codingSystemId": "urn:oid:2.16.840.1.113883.5.14",
+                    "display": "cancelled",
+                    "translations": []
+                },
+                "standard": {
+                    "id": "cancelled",
+                    "codingSystemId": "2.16.840.1.113883.5.14",
+                    "primaryDisplay": null
+                }
+            },
+            "estimatedArrivalDate": "2011-01-09",
+            "estimatedDepartureDate": "2011-01-10",
+            "actualArrivalDate": "2011-01-10",
+            "source": {
+                "id": "SourceId_encounters",
+                "type": "_NOT_VALUED",
+                "version": "version",
+                "rawEntityLocators": [
+                    {
+                        "entityKey": "/source:243fc1d0-3035-44d8-b58c-15ad2c0bc6f4/type:ENCOUNTER/name:ENCOUNTER/append:20140107",
+                        "version": 76267,
+                        "hdfsPath": null,
+                        "midasVersion": null,
+                        "midasJarName": null
+                    }
+                ],
+                "normalizedEntityLocator": null,
+                "contributingOrganization": {
+                    "organizationId": "orgId",
+                    "aliases": [
+                        {
+                            "value": "orgValue1",
+                            "type": "TAX",
+                            "assigningAuthority": null
+                        },
+                        {
+                            "value": "orgValue2",
+                            "type": "NPI",
+                            "assigningAuthority": "2.16.840.1.113883.4.6"
+                        },
+                        {
+                            "value": "orgValue3",
+                            "type": "EXTERNAL",
+                            "assigningAuthority": "authority"
+                        }
+                    ],
+                    "name": "serviceProviderOrg"
+                },
+                "releaseTag": null
+            },
+            "active": true
+        }
+    }
+]

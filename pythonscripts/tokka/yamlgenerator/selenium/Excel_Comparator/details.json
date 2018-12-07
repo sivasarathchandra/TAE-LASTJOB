@@ -1,0 +1,14 @@
+{
+	"master_file_expected_NonAR": ["C:\\VR_OPREP_BO_Automation_Master", "RCR-VR-OR-BO-All AR Universe-Non AR"],
+	"actual_file_from_daily_run_NonAR": ["C:\\VR_OPREP_BO_Automation", "RCR-VR-OR-BO-All AR Universe-Non AR_"],
+	"master_file_expected_ClientAR": ["C:\\VR_OPREP_BO_Automation_Master", "RCR-VR-OR-BO-All AR Universe-Client AR"],
+	"actual_file_from_daily_run_ClientAR": ["C:\\VR_OPREP_BO_Automation", "RCR-VR-OR-BO-All AR Universe-Client AR_"],
+	"master_file_expected_DaysinAR": ["C:\\VR_OPREP_BO_Automation_Master", "RCR-VR-OR-BO-All AR Universe-Days in AR"],
+	"actual_file_from_daily_run_DaysinAR": ["C:\\VR_OPREP_BO_Automation", "RCR-VR-OR-BO-All AR Universe-Days in AR_"],
+	"master_file_expected_GeneralAR": ["C:\\VR_OPREP_BO_Automation_Master", "RCR-VR-OR-BO-All AR Universe-General AR"],
+	"actual_file_from_daily_run_GeneralAR": ["C:\\VR_OPREP_BO_Automation", "RCR-VR-OR-BO-All AR Universe-General AR_"],
+	"master_file_expected_Summary": ["C:\\VR_OPREP_BO_Automation_Master", "RCR-VR-OR-BO-All AR Universe-Summary"],
+	"actual_file_from_daily_run_Summary": ["C:\\VR_OPREP_BO_Automation", "RCR-VR-OR-BO-All AR Universe-Summary_"],
+	"master_file_expected_CodingActivity": ["C:\\VR_OPREP_BO_Automation_Master", "RCR-VR-OR-BO-HIM Universe-Coding Activity"],
+	"actual_file_from_daily_run_CodingActivity": ["C:\\VR_OPREP_BO_Automation", "RCR-VR-OR-BO-HIM Universe-Coding Activity_"]
+}

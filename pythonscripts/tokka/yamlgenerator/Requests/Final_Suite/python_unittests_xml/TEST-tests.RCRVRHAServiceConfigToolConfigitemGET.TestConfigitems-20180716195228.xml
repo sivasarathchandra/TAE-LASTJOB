@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="tests.RCRVRHAServiceConfigToolConfigitemGET.TestConfigitems-20180716195228" tests="7" time="107.834">
+	<testcase classname="tests.RCRVRHAServiceConfigToolConfigitemGET.TestConfigitems" name="test_step_1_getRequest" time="59.583"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolConfigitemGET.TestConfigitems" name="test_step_2_unauthorized" time="7.970"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolConfigitemGET.TestConfigitems" name="test_step_3_NotFound" time="6.133"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolConfigitemGET.TestConfigitems" name="test_step_4_badRequest" time="7.287"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolConfigitemGET.TestConfigitems" name="test_step_5_InvalidClient_ID" time="11.671"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolConfigitemGET.TestConfigitems" name="test_step_6_Invalid_Key" time="8.310"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolConfigitemGET.TestConfigitems" name="test_step_7_Withno_Key" time="6.881">
+		<error message="'200' != '404'
+- 200
++ 404
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\tests\RCRVRHAServiceConfigToolConfigitemGET.py", line 69, in test_step_7_Withno_Key
+    self.assertEqual(str(self.response), '404')
+AssertionError: '200' != '404'
+- 200
++ 404
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

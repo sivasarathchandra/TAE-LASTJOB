@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="Tests.RCR_VR_HA_Service_ConfigTool_Targets_PUT.TestTargetsPut-20180712130828" tests="2" time="16.556">
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Targets_PUT.TestTargetsPut" name="test_Step1_putRequest" time="10.697"/>
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Targets_PUT.TestTargetsPut" name="test_Step2_putRequest_error" time="5.859"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

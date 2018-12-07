@@ -1,0 +1,233 @@
+#Scenario1: Account Sub Type of General - Initial Load
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 599724
+accounts:
+  - accountId: 599724
+    uid: "/partition:8cd6117e-91d5-437c-a583-362bfdabeffb/account:599724,std:acct_599724"
+    description: A/R General
+    balance: "-80.0"
+    status: OPEN
+    subType:
+      raw:
+        id: GENERAL
+        codingSystemId: urn:cerner:codingsystem:account:subtype
+        display: General
+        translations:
+        - id: "9999"
+          codingSystemId: 2.16.840.1.113883.3.221.5
+          display: GENERAL
+      standard:
+        id: "9999"
+        codingSystemId: 2.16.840.1.113883.3.221.5
+    type: AR
+    accountNumber: '2001'
+    createdDate: '2008-03-11T22:58:13.000Z'
+    endEffectiveDate: '2100-12-31T06:00:00.000Z'
+    billingOrganization:
+      aliases:
+      - value: '589811'
+        type: EXTERNAL
+      name: Starg Org A
+    dailyAccountBalances:
+    - endOfDayAccountBalanceAmount: "-36.0"
+      beginEffectiveDate: '2014-11-03T10:00:00.000Z'
+      endEffectiveDate: '2014-11-04T23:59:59.000Z'
+    - beginningBalanceAmount: "0.0"
+      paymentAmount: "-10.0"
+      adjustmentAmount: "-10.0"
+      endOfDayAccountBalanceAmount: "-36.0"
+      beginEffectiveDate: '2016-11-01T10:00:00.000Z'
+      endEffectiveDate: '2016-11-02T04:59:59.000Z'
+    - beginningBalanceAmount: "-24.0"
+      paymentAmount: "-4.0"
+      endOfDayAccountBalanceAmount: "-26.149"
+      beginEffectiveDate: '2016-11-02T05:00:00.000Z'
+      endEffectiveDate: '2016-11-04T04:59:59.000Z'
+    - beginningBalanceAmount: "-31.77"
+      paymentAmount: "-4.0"
+      adjustmentAmount: "-2.0"
+      endOfDayAccountBalanceAmount: "0.0"
+      beginEffectiveDate: '2016-11-04T05:00:00.000Z'
+      endEffectiveDate: '2016-11-06T05:59:59.000Z'
+    - endOfDayAccountBalanceAmount: "-26.149"
+      beginEffectiveDate: '2016-11-12T00:00:00.000Z'
+      endEffectiveDate: '2016-11-13T09:59:59.000Z'
+    billingLocation:
+      sourceId: '2261215835'
+      name: SUSHANT RESEARC
+      types: []
+      timeZoneId: 'America/Chicago'
+    active: true
+transactions:
+  - transactionId: 897571
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:599724,std:txn_897571
+    accountId: 599724
+    transactionDate: '2016-11-02T01:10:00.000Z'
+    remittanceDate: '2016-11-02T01:10:00.000Z'
+    transactionAlias: "CHARGE ADJUSTMENT"
+    amount: 130.203
+    transactionType: "ADJUSTMENT"
+    healthPlanBalanceId: 1945998
+    financialBalanceId: 4705042
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "83"
+      codingSystemId: 2.16.840.1.113883.3.221.5
+      display: 'Bad Debt Adjustment'
+     standard:
+      id: "83"
+      codingSystemId: 2.16.840.1.113883.3.221.5
+      primaryDisplay: 'Bad Debt Adjustment'
+    reason:
+     raw:
+      id: "1211"
+      codingSystemId: urn:cerner:codingsystem:account:reason
+      display: 'Test Bad Debt'
+     standard:
+      id: "1211"
+      codingSystemId: urn:cerner:codingsystem:account:reason
+  - transactionId: 897572
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:599724,std:txn_897572
+    accountId: 599724
+    transactionDate: '2016-11-04T02:59:59.000Z'
+    transactionAlias: "MEDICAID"
+    amount: 40.49128
+    transactionType: "PAYMENT"
+    healthPlanBalanceId: 1945998
+    financialBalanceId: 4705042
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "85"
+      codingSystemId: 2.26.840.1.113883.3.221.5
+      display: 'Commercial Insurance Payment'
+     standard:
+      id: "85"
+      codingSystemId: 2.26.840.1.113883.3.221.5
+      primaryDisplay: 'Commercial Insurance Payment'
+    reason:
+     raw:
+      id: "1212"
+      codingSystemId: urn:cerner:codingsystem:account:reason
+      display: 'Commercial Insurance'
+     standard:
+      id: "1212"
+      codingSystemId: urn:cerner:codingsystem:account:reason
+
+#Scenario2: Account Sub Type of General - Incremental Load
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 599725
+accounts:
+  - accountId: 599725
+    uid: "/partition:8cd6117e-91d5-437c-a583-362bfdabeffb/account:599725,std:acct_599725"
+    description: Ravi General A/R
+    balance: "-100.0"
+    status: OPEN
+    subType:
+      raw:
+        id: GENERAL
+        codingSystemId: urn:cerner:codingsystem:account:subtype
+        display: General
+        translations:
+        - id: "9999"
+          codingSystemId: 2.16.840.1.113883.3.221.5
+          display: GENERAL
+      standard:
+        id: "9999"
+        codingSystemId: 2.16.840.1.113883.3.221.5
+    type: AR
+    accountNumber: '2202'
+    createdDate: '2008-03-11T22:58:13.000Z'
+    endEffectiveDate: '2100-12-31T06:00:00.000Z'
+    billingOrganization:
+      aliases:
+      - value: '589811'
+        type: EXTERNAL
+      name: Florida Hospital Waterman
+    dailyAccountBalances:
+    - beginningBalanceAmount: "-27.6"
+      paymentAmount: "-6.0"
+      adjustmentAmount: "-4.0"
+      endOfDayAccountBalanceAmount: "-86.98"
+      beginEffectiveDate: '2016-11-07T10:00:00.000Z'
+      endEffectiveDate: '2016-11-08T04:59:59.000Z'
+    - beginningBalanceAmount: "-42.6"
+      adjustmentAmount: "-1.0"
+      endOfDayAccountBalanceAmount: "-26.749"
+      beginEffectiveDate: '2016-11-08T15:00:00.000Z'
+      endEffectiveDate: '2016-11-08T19:59:59.000Z'
+    billingLocation:
+      sourceId: '3261215835'
+      name: ROA RESEARCH
+      types: []
+      timeZoneId: 'America/Chicago'
+    active: true
+transactions:
+  - transactionId: 997571
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:599725,std:txn_997571
+    accountId: 599725
+    transactionDate: '2016-11-07T11:10:00.000Z'
+    remittanceDate: '2016-11-07T11:10:00.000Z'
+    transactionAlias: "CHARGE ADJUSTMENT"
+    amount: 23.203
+    transactionType: "ADJUSTMENT"
+    healthPlanBalanceId: 1945999
+    financialBalanceId: 4705043
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "93"
+      codingSystemId: 2.16.840.1.113883.3.111.5
+      display: 'Discount Adjustment'
+     standard:
+      id: "93"
+      codingSystemId: 2.16.840.1.113883.3.111.5
+      primaryDisplay: 'Discount Adjustment'
+    reason:
+     raw:
+      id: "1211"
+      codingSystemId: urn:cerner:codingsystem:account:reason
+      display: 'Discount Adjustment'
+     standard:
+      id: "1211"
+      codingSystemId: urn:cerner:codingsystem:account:reason
+  - transactionId: 997572
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:599725,std:txn_997572
+    accountId: 599725
+    transactionDate: '2016-11-08T02:59:59.000Z'
+    transactionAlias: "MEDICAID"
+    amount: 76.49128
+    transactionType: "PAYMENT"
+    healthPlanBalanceId: 1945999
+    financialBalanceId: 4705043
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "95"
+      codingSystemId: 2.26.840.1.113883.3.111.5
+      display: 'Medicare Payment'
+     standard:
+      id: "95"
+      codingSystemId: 2.26.840.1.113883.3.111.5
+      primaryDisplay: 'Medicare Payment'
+    reason:
+     raw:
+      id: "1212"
+      codingSystemId: urn:cerner:codingsystem:account:reason
+      display: 'Medicare Payment'
+     standard:
+      id: "1212"
+      codingSystemId: urn:cerner:codingsystem:account:reason

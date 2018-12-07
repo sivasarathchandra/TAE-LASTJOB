@@ -1,0 +1,49 @@
+{
+  "age_staging": [
+    "http://services.staginghealtheintent.net/rc-dashboard-config-service/age_categories",
+    "50187c3d-b72c-4f7a-9a34-b2abe35be868",
+    "database.staginghealtheintent.net",
+    "rc_config_svc",
+    "YDyzS59ucGRTR7k3Ukus",
+    "rcanalytics_config_service",
+    "tests/",
+    "69f9f5d7-0c12-4873-a18b-7f18a14c153f",
+    "1pfDq7W5_y_pXx1XL-Bw9wwqnTwpL1SO",
+    "https://api.sandboxcernercare.com/oauth/access"
+  ],
+    "organization_staging": [
+    "http://services.staginghealtheintent.net/rc-dashboard-config-service/organization_maps",
+    "database.staginghealtheintent.net",
+    "rc_config_svc",
+    "YDyzS59ucGRTR7k3Ukus",
+    "rcanalytics_config_service",
+    "tests/",
+    "69f9f5d7-0c12-4873-a18b-7f18a14c153f",
+    "1pfDq7W5_y_pXx1XL-Bw9wwqnTwpL1SO",
+    "https://api.sandboxcernercare.com/oauth/access"
+  ],
+  "targets_staging": [
+    "http://services.staginghealtheintent.net/rc-dashboard-config-service/targets",
+    "50187c3d-b72c-4f7a-9a34-b2abe35be868",
+    "database.staginghealtheintent.net",
+    "rc_config_svc",
+    "YDyzS59ucGRTR7k3Ukus",
+    "rcanalytics_config_service",
+    "tests/",
+    "69f9f5d7-0c12-4873-a18b-7f18a14c153f",
+    "1pfDq7W5_y_pXx1XL-Bw9wwqnTwpL1SO",
+    "https://api.sandboxcernercare.com/oauth/access"
+  ],
+  "Config_items_staging": [
+    "http://services.staginghealtheintent.net/rc-dashboard-config-service/config_items",
+    "50187c3d-b72c-4f7a-9a34-b2abe35be868",
+    "database.staginghealtheintent.net",
+    "rc_config_svc",
+    "YDyzS59ucGRTR7k3Ukus",
+    "rcanalytics_config_service",
+    "tests/",
+    "69f9f5d7-0c12-4873-a18b-7f18a14c153f",
+    "1pfDq7W5_y_pXx1XL-Bw9wwqnTwpL1SO",
+    "https://api.sandboxcernercare.com/oauth/access"
+  ]
+}

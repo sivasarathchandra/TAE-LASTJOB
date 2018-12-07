@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.RCRVRHAServiceConfigToolTargetsGET.TestTargets-20180716195103" tests="6" time="85.773">
+	<testcase classname="tests.RCRVRHAServiceConfigToolTargetsGET.TestTargets" name="test_step_1_getRequest" time="53.729"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolTargetsGET.TestTargets" name="test_step_2_unauthorized" time="6.134"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolTargetsGET.TestTargets" name="test_step_3_NotFound" time="6.649"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolTargetsGET.TestTargets" name="test_step_4_badRequest" time="6.254"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolTargetsGET.TestTargets" name="test_step_5_InvalidClient_ID" time="6.653"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolTargetsGET.TestTargets" name="test_step_6_InvalidMetric_ID" time="6.355"/>
+	<system-out>
+<![CDATA[java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

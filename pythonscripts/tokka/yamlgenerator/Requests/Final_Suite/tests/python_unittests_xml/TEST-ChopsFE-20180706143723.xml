@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="ChopsFE-20180706143723" tests="1" time="40.685">
+	<testcase classname="ChopsFE" name="test_front_end" time="40.685">
+		<error message="'NoneType' object has no attribute 'text'" type="AttributeError">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/SC057441/Desktop/Any/pythonscripts/tokka/yamlgenerator/Requests/Final_Suite/Tests/sample.py", line 55, in test_front_end
+    logger.info(recentdate.text)
+AttributeError: 'NoneType' object has no attribute 'text'
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

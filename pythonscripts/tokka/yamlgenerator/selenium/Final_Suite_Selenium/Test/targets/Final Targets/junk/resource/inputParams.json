@@ -1,0 +1,18 @@
+{
+  "stagingBaseUrl": "https://adventisthealthsystem.analytics.staginghealtheintent.com/explore/revenue_cycle/config/config/",
+  "devBaseUrl": "https://adventisthealthsystem.analytics.devcernerpophealth.com/explore/revenue_cycle/config/config/",
+  "adjustmentTabList": ["Total Adjustments", "Total Adjustments as % of Gross Revenue", "Bad Debt", "Bad Debt as % of Gross Revenue", "Charity Care", "Charity Care as % of Gross Revenue", "Charity as % of Uncompensated Care"],
+  "adjustmentList": ["total_adjustments","adjustments_percentage","bad_debt","bad_debt_percentage","charity_care","charity_care_percentage","charity_care_as_a_percentage_of_uncompensated_care" ],
+  "censusTabList": ["Average Length of Stay", "Average Daily Census", "Patient Days", "Admissions", "Discharges", "Observation Visits", "Outpatient Visits","Emergency Room Visits","% of ER Visits Admitted","Newborn Deliveries"],
+  "censusList": ["alos","average_daily_census","patient_days","admissions","discharges","observation_visits","outpatient_visits","emergency_room_visits","percentage_of_er_visits_admitted","newborn_deliveries"],
+  "cashTabList": ["Total Cash Collections", "Cash Collections %", "Total Cash Collections as % of Gross Revenue", "POS Collections %", "POS Cash Collections", "POS Cash Collections as % of Gross Revenue"],
+  "cashList": ["total_cash","cash_as_percent","total_cash_collections_as_percent_gross_revenue","pos_days","pos_cash_collections","pos_cash_collections_as_percent_gross_revenue"],
+  "denialsTabList": ["Denial Rate - Zero Pay","Denial Rate - Partial Pay","Total Denied Amount"],
+  "denialsList": ["denial_rate_zero_pay","denial_rate_partial_pay","total_denied_amount"],
+  "claimsTabList":["Clean Claim Rate","EDI Claims as % of Total Claims"],
+  "claimsList":["clean_claim_rate","edi_claims_percent_of_total"],
+  "managementTableList": ["Case Mix"],
+  "managementList": ["case_mix_index"],
+  "facility_name_dev":"BLR_RC_Analytics",
+  "facility_name_staging":"Innovations"
+}

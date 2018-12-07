@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="Tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut-20180712174000" tests="1" time="5.580">
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step011_putRequest_adding_allkeys_with_value" time="5.580"/>
+	<system-out>
+<![CDATA[java -jar Tests\auth-header-1.3.jar -k 99bb308b-0a2b-4547-a967-b6287914469d -s cHowMqwBMh2N4ShhBDrbcRZNLzo76VrA -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+[('total_cash', '{"target":{"unit":"$","number_format":"currency","decimal_precision":2}}'), ('net_revenue', '{}'), ('pos_days', '{"Days":10,"Range":"2","target":{"unit":"%","number_format":"percentage","decimal_precision":2,"errors":null}}')]
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

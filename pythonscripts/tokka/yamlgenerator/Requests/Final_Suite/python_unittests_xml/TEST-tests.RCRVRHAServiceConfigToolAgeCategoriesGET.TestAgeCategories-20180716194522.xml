@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories-20180716194522" tests="7" time="40.382">
+	<testcase classname="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories" name="test_step_2_unauthorized" time="5.207"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories" name="test_step_3_NotFound" time="5.341"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories" name="test_step_4_Conflicts" time="5.638"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories" name="test_step_5_badRequest" time="5.626"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories" name="test_step_6_noContent" time="6.533"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories" name="test_step_7_invalidRecord" time="6.171"/>
+	<testcase classname="tests.RCRVRHAServiceConfigToolAgeCategoriesGET.TestAgeCategories" name="test_step_1_getRequest" time="5.867">
+		<error message="False != True" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\tests\RCRVRHAServiceConfigToolAgeCategoriesGET.py", line 102, in test_step_1_getRequest
+    self.assertEqual(set(self.assert_list2).issuperset(set(self.assert_list1)), True)
+AssertionError: False != True
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+database.devhealtheintent.net rc_config_svc rc_config_svc rcanalytics_config_service
+<pymysql.connections.Connection object at 0x05F8E9D0>
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+database.devhealtheintent.net rc_config_svc rc_config_svc rcanalytics_config_service
+<pymysql.connections.Connection object at 0x05F8EAD0>
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+database.devhealtheintent.net rc_config_svc rc_config_svc rcanalytics_config_service
+<pymysql.connections.Connection object at 0x05FA5D90>
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+database.devhealtheintent.net rc_config_svc rc_config_svc rcanalytics_config_service
+<pymysql.connections.Connection object at 0x05FA5EB0>
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+database.devhealtheintent.net rc_config_svc rc_config_svc rcanalytics_config_service
+<pymysql.connections.Connection object at 0x05FA5F50>
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+database.devhealtheintent.net rc_config_svc rc_config_svc rcanalytics_config_service
+<pymysql.connections.Connection object at 0x06200370>
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+database.devhealtheintent.net rc_config_svc rc_config_svc rcanalytics_config_service
+<pymysql.connections.Connection object at 0x062007D0>
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,0 +1,1305 @@
+#Scenario#1: dischargeDate = null, Expected unbilledBalance = 0 and billedBalance = 0
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611300
+accounts:
+  - accountId: 611300
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611300,std:acct_611300
+    balance: 67.17999
+    status: OPEN
+    type: AR
+    accountType: null
+    subType: 
+     raw:
+      id: "12341"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+      translations:
+      - id: PATIENT
+        codingSystemId: urn:cerner:codingsystem:account:subtype
+        display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196100
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+
+#Scenario#2: FinancialClass = SelfPay and (Submitted Date < TransmittedDate and EndEffectiveDate < CurrentDate)
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611301
+accounts:
+  - accountId: 611301
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611301,std:acct_611301
+    balance: 10.99
+    status: OPEN
+    type: AR
+    accountType: 
+     raw:
+      id: "123456"
+      codingSystemId: 2.16.840.1.113883.5.4
+      display: "A/R"
+      translations:
+      - id: "ACCTRECEIVABLE"
+        codingSystemId: 2.16.840.1.113883.5.4
+        display: AR
+     standard: 
+      id: "ACCTRECEIVABLE"
+      codingSystemId: 2.16.840.1.113883.5.4
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196160
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+statementBills:
+  - accountId: 611301
+    statementBillId: 61130101
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611301,std:stmtbill_61130101
+    financialBalanceIds:
+      - 5708001
+      - 5708002
+    createdDate: '2014-01-01T20:00:00.000Z'
+    billStatus:
+      raw:
+        id: CANCELED
+        codingSystemId: 1111
+        display: Canceled
+      standard:
+        id: CANCELED
+        codingSystemId: 1111
+        primaryDisplay: Canceled  
+    submittedDate: '2014-02-10T20:00:00.000Z'
+
+#Scenario#3: FinancialClass = SelfPay and (Submitted Date > TransmittedDate and EndEffectiveDate > CurrentDate)
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611302
+accounts:
+  - accountId: 611302
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611302,std:acct_611302
+    balance: 11.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196161
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+statementBills:
+  - accountId: 611302
+    statementBillId: 61130102
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611302,std:stmtbill_61130102
+    financialBalanceIds:
+      - 5708003
+      - 5708004
+    createdDate: '2014-01-01T20:00:00.000Z'  
+    submittedDate: '2014-12-10T20:00:00.000Z'
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611303
+accounts:
+  - accountId: 611303
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611303,std:acct_611303
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196162
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+
+#Scenario#4: FinancialClass = SelfPay and EndEffectiveDate > CurrentDate
+#dischargeDate not null and (StatementDate = null and TransmittedDate = null) 
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611304
+accounts:
+  - accountId: 611304
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611304,std:acct_611304
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196163
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+statementBills:
+  - accountId: 611304
+    statementBillId: 61130401
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611304,std:stmtbill_61130401
+    financialBalanceIds:
+      - 5708006
+    createdDate: '2014-01-01T20:00:00.000Z'
+
+#Scenario#5: FinancialClass = SelfPay and EndEffectiveDate < CurrentDate
+#dischargeDate not null and (StatementDate = null and TransmittedDate = null) 
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611305
+accounts:
+  - accountId: 611305
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611305,std:acct_611305
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196164
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+statementBills:
+  - accountId: 611305
+    statementBillId: 61130501
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611305,std:stmtbill_61130501
+    financialBalanceIds:
+      - 5708007
+    createdDate: '2014-01-01T20:00:00.000Z'
+
+#Scenario#6: FinancialClass <> SelfPay 
+#ischargeDate not null and TransmittedDate <> null and EndEffectiveDate > CurrentDate
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611306
+accounts:
+  - accountId: 611306
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611306,std:acct_611306
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196165
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+statementBills:
+  - accountId: 611306
+    statementBillId: 61130601
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611306,std:stmtbill_61130601
+    financialBalanceIds:
+      - 5708008
+    createdDate: '2014-01-01T20:00:00.000Z'
+    submittedDate: '2014-12-06T20:00:00.000Z'
+
+#Scenario#7: FinancialClass <> SelfPay 
+#ischargeDate not null and TransmittedDate <> null and EndEffectiveDate < CurrentDate
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611307
+accounts:
+  - accountId: 611307
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611307,std:acct_611307
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196166
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+statementBills:
+  - accountId: 611307
+    statementBillId: 61130701
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611307,std:stmtbill_61130701
+    financialBalanceIds:
+      - 5708009
+    createdDate: '2014-01-01T20:00:00.000Z'
+    submittedDate: '2014-04-06T20:00:00.000Z'
+
+#Scenario#8: FinancialClass <> SelfPay 
+#ischargeDate not null and TransmittedDate = null and EndEffectiveDate > CurrentDate
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611308
+accounts:
+  - accountId: 611308
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611308,std:acct_611308
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196167
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+statementBills:
+  - accountId: 611308
+    statementBillId: 61130801
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611308,std:stmtbill_61130801
+    financialBalanceIds:
+      - 5708010
+    createdDate: '2014-01-01T20:00:00.000Z'
+    submittedDate: '2014-12-06T20:00:00.000Z'
+
+
+#Scenario#9: FinancialClass <> SelfPay 
+#ischargeDate not null and TransmittedDate = null and EndEffectiveDate < CurrentDate
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611309
+accounts:
+  - accountId: 611309
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611309,std:acct_611309
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196168
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+
+#Scenario#10: FinancialClass = SelfPay and (Multiple Statements and SubmittedDate < TransmittedDate)
+#dischargeDate not null and < SubmittedDate 
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611310
+accounts:
+  - accountId: 611310
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611310,std:acct_611310
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196168
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+statementBills:
+  - accountId: 611310
+    statementBillId: 61131001
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611310,std:stmtbill_61131001
+    financialBalanceIds:
+      - 5708012
+      - 5708013
+    createdDate: '2014-01-01T20:00:00.000Z'
+    submittedDate: '2014-12-07T20:00:00.000Z'
+statementBills:
+  - accountId: 611310
+    statementBillId: 61131002
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611310,std:stmtbill_61131002
+    financialBalanceIds:
+      - 5708013
+    createdDate: '2014-01-01T20:00:00.000Z'
+    submittedDate: '2014-12-06T20:00:00.000Z'
+
+#Scenario#11: FinancialClass = SelfPay and (Multiple Statements and SubmittedDate < TransmittedDate)
+#dischargeDate not null and < SubmittedDate
+#Begin Effective Date of Daily Financial Balance > dicharge Date & First Date.
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611311
+accounts:
+  - accountId: 611311
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611311,std:acct_611311
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196169
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+statementBills:
+  - accountId: 611311
+    statementBillId: 61131101
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611311,std:stmtbill_61131101
+    financialBalanceIds:
+      - 5708014
+    createdDate: '2014-01-01T20:00:00.000Z'
+    submittedDate: '2014-11-28T20:00:00.000Z'
+transactions:
+  - transactionId: 897571
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611407,std:txn_897571
+    accountId: 611407
+    healthPlanBalanceId: 1945998
+    financialBalanceId: 5708014
+    transactionDate: '2014-04-05T14:00:00.000Z'
+    amount: -100.00
+    transactionType: "ADJUSTMENT"
+    healthPlanBalanceId: 1945998
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "10321000175103"
+      codingSystemId: 2.16.840.1.113883.6.96
+      display: 'Contractual'
+     standard:
+      id: "10321000175103"
+      codingSystemId: 2.16.840.1.113883.6.96
+      primaryDisplay: 'Contractual'
+  - transactionId: 897571
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611407,std:txn_897571
+    accountId: 611407
+    healthPlanBalanceId: 1945998
+    financialBalanceId: 5708014
+    transactionDate: '2014-04-05T14:00:00.000Z'
+    amount: -100.00
+    transactionType: "ADJUSTMENT"
+    healthPlanBalanceId: 1945998
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "ADMIN"
+      codingSystemId: Admin adjustment
+      display: 'Admin'
+     standard:
+      id: "ADMIN"
+      codingSystemId: Admin adjustment
+      primaryDisplay: 'Admin'
+
+#Scenario#12: Testing Collections Scenarios.
+#FinancialClass = SelfPay and (Multiple Statements and SubmittedDate < TransmittedDate) and Multiples Hold Reasons with status as Pre Collection Agency OR Collection Agency Assigned. 
+#dischargeDate not null and < HoldReason.beginEffectiveDate.
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611312
+accounts:
+  - accountId: 611312
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611312,std:acct_611312
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196170
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+statementBills:
+  - accountId: 611312
+    statementBillId: 61131201
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611312,std:stmtbill_61131201
+    financialBalanceIds:
+      - 5708015
+    createdDate: '2014-01-01T20:00:00.000Z'
+    submittedDate: '2014-06-06T20:00:00.000Z'
+
+#Scenario#13: Testing Manually Completed Scenario.
+#SubmittedDate < RolloverDate and it is manually completed in HealthplanBalance
+#dischargeDate not null and < HealthPlanBalance.RolloverDate.
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611313
+accounts:
+  - accountId: 611313
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611313,std:acct_611313
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196171
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+statementBills:
+  - accountId: 611313
+    statementBillId: 61131301
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611313,std:stmtbill_61131301
+    financialBalanceIds:
+      - 5708016
+    createdDate: '2014-01-01T20:00:00.000Z'
+    healthPlanBalanceId: 589743
+    billStatus:
+      raw:
+        id: TRANSMITTED
+        codingSystemId: 1111
+        display: Transmitted
+      standard:
+        id: TRANSMITTED
+        codingSystemId: 1111
+        primaryDisplay: Transmitted
+    submittedDate: '2014-07-08T20:00:00.000Z'
+
+#Scenario#15: Testing Recurring Encounters.
+#dischargeDate null
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611315
+accounts:
+  - accountId: 611315
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611315,std:acct_611315
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196172
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+
+#Scenario#16: Testing Scenario - Primary Financial Class should be pulled from the PFT_ENCNTR.
+#dischargeDate not null
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611316
+accounts:
+  - accountId: 611316
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611316,std:acct_611316
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196176
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+statementBills:
+  - accountId: 611316
+    statementBillId: 61131601
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611316,std:stmtbill_61131601
+    financialBalanceIds:
+      - 5708019
+    createdDate: '2014-01-01T20:00:00.000Z'
+    billStatus:
+      raw:
+        id: TRANSMITTED
+        codingSystemId: 1111
+        display: Transmitted
+      standard:
+        id: TRANSMITTED
+        codingSystemId: 1111
+        primaryDisplay: Transmitted
+    submittedDate: '2014-09-21T20:00:00.000Z'
+
+#Scenario#17: Testing Bad Debt Scenario.
+#dischargeDate not null
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611317
+accounts:
+  - accountId: 611317
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611317,std:acct_611317
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196172
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+transactions:
+  - transactionId: 892345
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611450,std:txn_8976001
+    accountId: 611317
+    healthPlanBalanceId: 570802001
+    financialBalanceId: 5708020
+    transactionDate: '2014-04-05T14:00:00.000Z'
+    amount: 11.11
+    transactionType: "PAYMENT"
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "627146"
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: 'Patient payment'
+     standard:
+      id: "PATIENTPAY"
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+  - transactionId: 8976002
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611450,std:txn_8976002
+    accountId: 611317
+    healthPlanBalanceId: 570802002
+    financialBalanceId: 5708020
+    transactionDate: '2014-04-03T14:00:00.000Z'
+    amount: 22.22
+    transactionType: "PAYMENT"
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "627146"
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: 'Patient payment'
+     standard:
+      id: "PATIENTPAY"
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+  - transactionId: 8976003
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611450,std:txn_8976003
+    accountId: 611317
+    healthPlanBalanceId: 570802003
+    financialBalanceId: 5708020
+    transactionDate: '2014-04-09T14:00:00.000Z'
+    amount: 33.33
+    transactionType: "PAYMENT"
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "627146"
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: 'Patient payment'
+     standard:
+      id: "PATIENTPAY"
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+  - transactionId: 8976003
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611450,std:txn_8976003
+    accountId: 611317
+    healthPlanBalanceId: 570802004
+    financialBalanceId: 5708020
+    transactionDate: '2014-04-09T14:00:00.000Z'
+    amount: 44.44
+    transactionType: "PAYMENT"
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "627146"
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: 'Patient payment'
+     standard:
+      id: "PATIENTPAY"
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+
+#Scenario#18: Testing Invalid/Cancelled Health Plan Balance Scenario.
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611318
+accounts:
+  - accountId: 611318
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611318,std:acct_611318
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196172
+    createdDate: '2014-10-01T00:00:00.000Z'
+    active: true
+
+#Scenario#19: Holdings.
+#Testing Invalid hold Code 
+#dischargeDate not null and < HealthPlanBalance.RolloverDate.
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611319
+accounts:
+  - accountId: 611319
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611319,std:acct_611319
+    balance: 11.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196161
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+statementBills:
+  - accountId: 611319
+    statementBillId: 61131902
+    statementNumber: 111111
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611319,std:stmtbill_61131902
+    financialBalanceIds:
+      - 5708022
+    billStatus:
+      raw:
+        id: TRANSMITTED
+        codingSystemId: 2.16.840.1.113883.3.26.1.1
+        display: Transmitted
+      standard:
+        id: C71292
+        codingSystemId: 2.16.840.1.113883.3.26.1.1
+        primaryDisplay: Transmitted
+    createdDate: '2014-01-01T20:00:00.000Z'  
+    submittedDate: '2014-12-10T20:00:00.000Z'
+
+#Scenario#20: Holdings.
+#Testing Waiting for Code 
+#dischargeDate not null and < HealthPlanBalance.RolloverDate.
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611320
+accounts:
+  - accountId: 611320
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611320,std:acct_611320
+    balance: 13.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196164
+    createdDate: '2011-09-01T00:00:00.000Z'
+    active: true
+statementBills:
+  - accountId: 611320
+    statementBillId: 61132001
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611320,std:stmtbill_61132001
+    financialBalanceIds:
+      - 5708023
+    createdDate: '2014-01-01T20:00:00.000Z'
+
+#Scenario#21: Testing DNFB Status for Correction Required.
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611401
+accounts:
+  - accountId: 611401
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611401,std:acct_611401
+    balance: 10.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196170
+    createdDate: '2014-12-01T00:00:00.000Z'
+    active: true
+
+#Scenario#22: Testing DNFB Status for Correction Required.
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611402
+accounts:
+  - accountId: 611402
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611402,std:acct_611402
+    balance: 10.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196171
+    createdDate: '2014-12-01T00:00:00.000Z'
+    active: true
+
+#Scenario#23: Scenario to Test Bill Suppression DNFB Status.
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611403
+accounts:
+  - accountId: 611403
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611403,std:acct_611403
+    balance: 10.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196172
+    createdDate: '2014-12-01T00:00:00.000Z'
+    active: true
+
+#Scenario#24: Scenario to Test Initial, Incremental and Re-process Snapshot.
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611405
+accounts:
+  - accountId: 611405
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611405,std:acct_611405
+    balance: 10.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196173
+    createdDate: '2014-12-01T00:00:00.000Z'
+    active: true
+transactions:
+  - transactionId: 897571
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611407,std:txn_897571
+    accountId: 611407
+    healthPlanBalanceId: 1945998
+    financialBalanceId: 5709005
+    transactionDate: '2014-04-05T14:00:00.000Z'
+    amount: -46.007
+    transactionType: "ADJUSTMENT"
+    healthPlanBalanceId: 1945998
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "10321000175103"
+      codingSystemId: 2.16.840.1.113883.6.96
+      display: 'Contractual'
+     standard:
+      id: "10321000175103"
+      codingSystemId: 2.16.840.1.113883.6.96
+      primaryDisplay: 'Contractual'
+  - transactionId: 897572
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611407,std:txn_897572
+    accountId: 611407
+    healthPlanBalanceId: 1945998
+    financialBalanceId: 5709005
+    transactionDate: '2014-04-05T14:00:00.000Z'
+    amount: -45.007
+    transactionType: "ADJUSTMENT"
+    healthPlanBalanceId: 1945998
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "821"
+      codingSystemId: 2.16.840.1.113883.3.221.5
+      display: 'Charity'
+     standard:
+      id: "821"
+      codingSystemId: 2.16.840.1.113883.3.221.5
+      primaryDisplay: 'Charity'
+  - transactionId: 897573
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611407,std:txn_897573
+    accountId: 611407
+    healthPlanBalanceId: 1945998
+    financialBalanceId: 5709005
+    transactionDate: '2014-01-01T14:00:00.000Z'
+    amount: -35.00
+    transactionType: "ADJUSTMENT"
+    healthPlanBalanceId: 1945998
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "83"
+      codingSystemId: 2.16.840.1.113883.3.221.5
+      display: 'Bad Debt Adjustment'
+     standard:
+      id: "83"
+      codingSystemId: 2.16.840.1.113883.3.221.5
+      primaryDisplay: 'Bad Debt Adjustment'
+  - transactionId: 897575
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611407,std:txn_897571
+    accountId: 611407
+    healthPlanBalanceId: 1945998
+    financialBalanceId: 5708013
+    transactionDate: '2014-04-01T14:00:00.000Z'
+    amount: -100.00
+    transactionType: "ADJUSTMENT"
+    healthPlanBalanceId: 1945998
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "RECOV"
+      codingSystemId: 2.16.840.1.113883.5.4
+      display: 'Contractual'
+     standard:
+      id: "RECOV"
+      codingSystemId: 2.16.840.1.113883.5.4
+      primaryDisplay: 'Contractual'
+  - transactionId: 897575
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611407,std:txn_897571
+    accountId: 611407
+    healthPlanBalanceId: 1945998
+    financialBalanceId: 5708013
+    transactionDate: '2014-04-01T14:00:00.000Z'
+    amount: -100.00
+    transactionType: "ADJUSTMENT"
+    healthPlanBalanceId: 1945998
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "ADMIN"
+      codingSystemId: Admin Adjustment
+      display: 'Admin'
+     standard:
+      id: "ADMIN"
+      codingSystemId: Admin Adjustment
+      primaryDisplay: 'Admin'
+
+#Scenario#24: Scenario to Test Adjustments.
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611407
+accounts:
+  - accountId: 611407
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611407,std:acct_611407
+    balance: 10.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196172
+    createdDate: '2014-12-01T00:00:00.000Z'
+    active: true
+transactions:
+  - transactionId: 897571
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611407,std:txn_897571
+    accountId: 611407
+    healthPlanBalanceId: 1945998
+    financialBalanceId: 4705042
+    transactionDate: '2014-04-05T14:00:00.000Z'
+    amount: -45.007
+    transactionType: "ADJUSTMENT"
+    healthPlanBalanceId: 1945998
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "821"
+      codingSystemId: 2.16.840.1.113883.3.221.5
+      display: 'Charity'
+     standard:
+      id: "821"
+      codingSystemId: 2.16.840.1.113883.3.221.5
+      primaryDisplay: 'Charity'
+  - transactionId: 897572
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611407,std:txn_897572
+    accountId: 611407
+    healthPlanBalanceId: 1945998
+    financialBalanceId: 4705043
+    transactionDate: '2014-05-03T14:00:00.000Z'
+    amount: -35.00
+    transactionType: "ADJUSTMENT"
+    healthPlanBalanceId: 1945998
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "83"
+      codingSystemId: 2.16.840.1.113883.3.221.5
+      display: 'Bad Debt Adjustment'
+     standard:
+      id: "83"
+      codingSystemId: 2.16.840.1.113883.3.221.5
+      primaryDisplay: 'Bad Debt Adjustment'
+
+#Scenario#26: Scenario to Patient Accounts Filtering.
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611408
+accounts:
+  - accountId: 611408
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611408,std:acct_611408
+    balance: 10.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "CLIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: CLIENT
+     standard: 
+      id: "CLIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196173
+    createdDate: '2014-12-01T00:00:00.000Z'
+    active: true
+transactions:
+  - transactionId: 897573
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611408,std:txn_897573
+    accountId: 611408
+    healthPlanBalanceId: 1945999
+    financialBalanceId: 4705044
+    transactionDate: '2014-04-05T14:00:00.000Z'
+    amount: -25.003
+    transactionType: "ADJUSTMENT"
+    healthPlanBalanceId: 1945999
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "RECOV"
+      codingSystemId: 2.16.840.1.113883.5.4
+      display: 'Contractual'
+     standard:
+      id: "RECOV"
+      codingSystemId: 2.16.840.1.113883.5.4
+      primaryDisplay: 'Contractual'
+  - transactionId: 897574
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611408,std:txn_897574
+    accountId: 611408
+    healthPlanBalanceId: 1945999
+    financialBalanceId: 4705044
+    transactionDate: '2014-05-03T14:00:00.000Z'
+    amount: -35.00
+    transactionType: "ADJUSTMENT"
+    healthPlanBalanceId: 1945999
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "RECOV"
+      codingSystemId: 2.16.840.1.113883.5.4
+      display: 'Contractual'
+     standard:
+      id: "RECOV"
+      codingSystemId: 2.16.840.1.113883.5.4
+      primaryDisplay: 'Contractual'
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611409
+accounts:
+  - accountId: 611409
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611408,std:acct_611408
+    balance: 10.99
+    status: OPEN
+    type: AR
+    accountNumber: 1196174
+    createdDate: '2014-12-01T00:00:00.000Z'
+    active: true
+transactions:
+  - transactionId: 897575
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611409,std:txn_897575
+    accountId: 611409
+    healthPlanBalanceId: 1946000
+    financialBalanceId: 4705045
+    transactionDate: '2014-04-05T14:00:00.000Z'
+    amount: -25.007
+    transactionType: "ADJUSTMENT"
+    healthPlanBalanceId: 1946000
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "RECOV"
+      codingSystemId: 2.16.840.1.113883.5.4
+      display: 'Contractual'
+     standard:
+      id: "RECOV"
+      codingSystemId: 2.16.840.1.113883.5.4
+      primaryDisplay: 'Contractual'
+  - transactionId: 897576
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611409,std:txn_897576
+    accountId: 611409
+    healthPlanBalanceId: 1946001
+    financialBalanceId: 4705045
+    transactionDate: '2014-05-03T14:00:00.000Z'
+    amount: -35.00
+    transactionType: "ADJUSTMENT"
+    healthPlanBalanceId: 1946001
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "RECOV"
+      codingSystemId: 2.16.840.1.113883.5.4
+      display: 'Contractual'
+     standard:
+      id: "RECOV"
+      codingSystemId: 2.16.840.1.113883.5.4
+      primaryDisplay: 'Contractual'
+
+#Scenario#29: Inactive Financial Balances Scenario.
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 621403
+accounts:
+  - accountId: 621403
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:621403,std:acct_621403
+    balance: 10.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196172
+    createdDate: '2014-12-01T00:00:00.000Z'
+    active: true
+#Scenario#30: Emit A/R even if clinical encounter is not present
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 600013
+accounts:
+  - accountId: 600013
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:600013,std:acct_600013
+    balance: 10.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196272
+    createdDate: '2015-01-19T00:00:00.000Z'
+    organization:
+      aliases:
+        - value: 5668264
+          type: EXTERNAL
+      name: Branson
+    billingOrganization:
+      aliases:
+        - value: 5668264
+          type: EXTERNAL
+      name: Shawnee
+    active: true
+    billingLocation:
+      timeZoneId: America/Chicago 
+statementBills:
+  - accountId: 600013
+    statementBillId: 6000013
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:600013,std:stmtbill_6000013
+    financialBalanceIds:
+      - 5800013
+    createdDate: '2015-01-20T20:00:00.000Z'  
+    submittedDate: '2015-01-21T20:00:00.000Z'
+
+#Scenario#31: Scenario to Test Latest Insurance Payment date.
+---
+recordId:
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+  accountId: 611450
+accounts:
+  - accountId: 611450
+    uid: partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611450,std:acct_611450
+    balance: 10.99
+    status: OPEN
+    type: AR
+    subType: 
+     raw:
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+      display: PATIENT
+     standard: 
+      id: "PATIENT"
+      codingSystemId: urn:cerner:codingsystem:account:subtype
+    accountNumber: 1196172
+    createdDate: '2014-12-01T00:00:00.000Z'
+    active: true
+transactions:
+  - transactionId: 8976001
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611450,std:txn_8976001
+    accountId: 611450
+    healthPlanBalanceId: 19460002
+    financialBalanceId: 4705060
+    transactionDate: '2014-04-05T14:00:00.000Z'
+    amount: 10.00
+    transactionType: "PAYMENT"
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "627146"
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: 'Patient payment'
+     standard:
+      id: "PATIENTPAY"
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+  - transactionId: 8976002
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611450,std:txn_8976002
+    accountId: 611450
+    healthPlanBalanceId: 19460001
+    financialBalanceId: 4705060
+    transactionDate: '2014-04-03T14:00:00.000Z'
+    amount: 15.00
+    transactionType: "PAYMENT"
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "627146"
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: 'Patient payment'
+     standard:
+      id: "PATIENTPAY"
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+  - transactionId: 8976003
+    uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:611450,std:txn_8976003
+    accountId: 611450
+    healthPlanBalanceId: 19460002
+    financialBalanceId: 4705060
+    transactionDate: '2014-04-09T14:00:00.000Z'
+    amount: 12.00
+    transactionType: "PAYMENT"
+    paymentDetail: []
+    active : true
+    accountType: AR
+    transactionSubType:
+     raw:
+      id: "627146"
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: 'Patient payment'
+     standard:
+      id: "PATIENTPAY"
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype

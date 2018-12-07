@@ -1,0 +1,14 @@
+{
+	"master_Claim": ["C:\\Users\\SC057441\\Desktop\\Any\\pythonscripts\\tokka\\yamlgenerator\\selenium\\Excel_Comparator\\HI_Master", "Claim_Scenario_Mapping_Detailed_v2.0"],
+	"actual_Claim": ["C:\\Users\\SC057441\\Desktop\\Any\\pythonscripts\\tokka\\yamlgenerator\\selenium\\Excel_Comparator\\HI_Master", "Claim_Scenario_Mapping_Detailed_v2.0_1"],
+	"master_file_expected_ClientAR": ["C:\\Users\\SC057441\\Desktop\\Any\\pythonscripts\\tokka\\yamlgenerator\\selenium\\Excel_Comparator", "RCR-VR-OR-BO-Financial Transaction Universe-Revenue_1000_mapping"],
+	"actual_file_from_daily_run_ClientAR": ["C:\\Users\\SC057441\\Desktop\\Any\\pythonscripts\\tokka\\yamlgenerator\\selenium\\Excel_Comparator", "RCR-VR-OR-BO-Financial Transaction Universe-Revenue_1000"],
+	"master_file_expected_Universe_Revenue": ["C:\\Users\\SC057441\\Desktop\\Any\\pythonscripts\\tokka\\yamlgenerator\\selenium\\Excel_Comparator\\VR_OPREP_BO_Automation_Master", "RCR-VR-OR-BO-HIM Deficiency Analysis Univer"],
+	"actual_file_from_daily_run_Universe_Revenue": ["C:\\Users\\SC057441\\Desktop\\Any\\pythonscripts\\tokka\\yamlgenerator\\selenium\\Excel_Comparator\\VR_OPREP_BO_Automation", "RCR-VR-OR-BO-HIM Deficiency Analysis Univer_"],
+	"master_file_expected_GeneralAR": ["C:\\Users\\SC057441\\Desktop\\Any\\pythonscripts\\tokka\\yamlgenerator\\selenium\\Excel_Comparator", "RCR-VR-OR-BO-All AR Universe-General AR"],
+	"actual_file_from_daily_run_GeneralAR": ["C:\\Users\\SC057441\\Desktop\\Any\\pythonscripts\\tokka\\yamlgenerator\\selenium\\Excel_Comparator", "RCR-VR-OR-BO-All AR Universe-General AR_"],
+	"master_file_expected_Summary": ["C:\\Users\\SC057441\\Desktop\\Any\\pythonscripts\\tokka\\yamlgenerator\\selenium\\Excel_Comparator", "RCR-VR-OR-BO-All AR Universe-Summary"],
+	"actual_file_from_daily_run_Summary": ["C:\\Users\\SC057441\\Desktop\\Any\\pythonscripts\\tokka\\yamlgenerator\\selenium\\Excel_Comparator", "RCR-VR-OR-BO-All AR Universe-Summary_"],
+	"master_file_expected_CodingActivity": ["C:\\Users\\SC057441\\Desktop\\Any\\pythonscripts\\tokka\\yamlgenerator\\selenium\\Excel_Comparator", "RCR-VR-OR-BO-HIM Universe-Coding Activity"],
+	"actual_file_from_daily_run_CodingActivity": ["C:\\Users\\SC057441\\Desktop\\Any\\pythonscripts\\tokka\\yamlgenerator\\selenium\\Excel_Comparator", "RCR-VR-OR-BO-HIM Universe-Coding Activity_"]
+}

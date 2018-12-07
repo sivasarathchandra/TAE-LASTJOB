@@ -1,0 +1,12 @@
+[
+    {
+        "favorite_color": null,
+        "favorite_number": 256,
+        "name": "Alyssa"
+    },
+    {
+        "favorite_color": "red",
+        "favorite_number": 7,
+        "name": "Ben"
+    }
+]

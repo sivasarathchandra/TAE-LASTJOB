@@ -1,0 +1,14 @@
+{
+  "Config_items_Dev": [
+    "http://services.devhealtheintent.net/rc-dashboard-config-service/config_items",
+    "50187c3d-b72c-4f7a-9a34-b2abe35be868",
+    "database.devhealtheintent.net",
+    "rc_config_svc",
+    "rc_config_svc",
+    "rcanalytics_config_service",
+    "tests\\",
+    "c0c11d7a-48c1-461d-8be9-56e9fb60b28f",
+    "Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l",
+    "https://api.devcernercare.com/oauth/access"
+  ]
+}

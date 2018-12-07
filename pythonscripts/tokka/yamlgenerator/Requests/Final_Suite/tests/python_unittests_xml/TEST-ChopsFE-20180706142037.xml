@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="ChopsFE-20180706142037" tests="1" time="53.355">
+	<testcase classname="ChopsFE" name="test_front_end" time="53.355">
+		<error message="Message: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[2]/div/div/div[3]/div/div[1]/div/div/div[2]/div/div/div/div/div[2]/ul/li[1]/div/div/div/ul/li[15]/div/div/div/div[1]/span/span/b&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64)
+" type="NoSuchElementException">
+<![CDATA[Traceback (most recent call last):
+  File "C:/Users/SC057441/Desktop/Any/pythonscripts/tokka/yamlgenerator/Requests/Final_Suite/Tests/sample.py", line 50, in test_front_end
+    self.driver.find_element_by_xpath('/html/body/div[2]/div/div/div[3]/div/div[1]/div/div/div[2]/div/div/div/div/div[2]/ul/li[1]/div/div/div/ul/li[15]/div/div/div/div[1]/span/span/b').click()
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 387, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 957, in find_element
+    'value': value})['value']
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 314, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div/div/div[3]/div/div[1]/div/div/div[2]/div/div/div/div/div[2]/ul/li[1]/div/div/div/ul/li[15]/div/div/div/div[1]/span/span/b"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64)
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

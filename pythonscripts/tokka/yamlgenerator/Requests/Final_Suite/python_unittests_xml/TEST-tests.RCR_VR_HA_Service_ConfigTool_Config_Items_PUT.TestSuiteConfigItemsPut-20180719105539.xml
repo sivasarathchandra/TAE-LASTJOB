@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<testsuite errors="2" failures="0" name="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut-20180719105539" tests="3" time="16.562">
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step012_putRequest_remove_extra_rows" time="5.015"/>
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step001_postRequest_new_id" time="6.254">
+		<error message="'TestSuiteConfigItemsPut' object has no attribute 'res_list'" type="AttributeError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\tests\RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.py", line 86, in test_Step001_postRequest_new_id
+    self.assertEqual(list(self.compare_against_DB(params["client_id"],99)), list(params.values()))
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\tests\RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.py", line 24, in compare_against_DB
+    sel_query = "SELECT * FROM RCANALYTICS_CONFIG_SERVICE.CONFIG_ITEMS WHERE CLIENT_ID = " + "'" + client_name + "'"+"AND ID = "+ "'" + self.res_list +"';"
+AttributeError: 'TestSuiteConfigItemsPut' object has no attribute 'res_list'
+]]>		</error>
+	</testcase>
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step009_putRequest_adding_net_revenue" time="5.293">
+		<error message="must be str, not int" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\tests\RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.py", line 96, in test_Step009_putRequest_adding_net_revenue
+    tokka = self.compare_against_DB(params["client_id"],99)
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\tests\RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.py", line 24, in compare_against_DB
+    sel_query = "SELECT * FROM RCANALYTICS_CONFIG_SERVICE.CONFIG_ITEMS WHERE CLIENT_ID = " + "'" + client_name + "'"+"AND ID = "+ "'" + self.res_list +"';"
+TypeError: must be str, not int
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

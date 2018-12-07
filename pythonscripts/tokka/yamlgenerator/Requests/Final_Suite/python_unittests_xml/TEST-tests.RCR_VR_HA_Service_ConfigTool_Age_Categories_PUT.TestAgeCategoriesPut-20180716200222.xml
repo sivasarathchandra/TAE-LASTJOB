@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="tests.RCR_VR_HA_Service_ConfigTool_Age_Categories_PUT.TestAgeCategoriesPut-20180716200222" tests="2" time="21.382">
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Age_Categories_PUT.TestAgeCategoriesPut" name="test_Step1_putRequest" time="14.631"/>
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Age_Categories_PUT.TestAgeCategoriesPut" name="test_Step2_putRequest_error" time="6.752"/>
+	<system-out>
+<![CDATA[java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+<pymysql.connections.Connection object at 0x058548B0>
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+<pymysql.connections.Connection object at 0x05854BD0>
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="Tests.RCR_VR_HA_Service_ConfigTool_Targets_PUT.TestTargetsPut-20180706094017" tests="2" time="134.698">
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Targets_PUT.TestTargetsPut" name="test_Step2_putRequest_error" time="6.034"/>
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Targets_PUT.TestTargetsPut" name="test_Step1_putRequest" time="128.663">
+		<error message="'504' != '204'
+- 504
+? ^
++ 204
+? ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\Tests\RCR_VR_HA_Service_ConfigTool_Targets_PUT.py", line 56, in test_Step1_putRequest
+    self.assertEqual(str(self.response), '204')
+AssertionError: '504' != '204'
+- 504
+? ^
++ 204
+? ^
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut-20180719105832" tests="3" time="17.064">
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step001_postRequest_new_id" time="6.299"/>
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step012_putRequest_remove_extra_rows" time="4.939"/>
+	<testcase classname="tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step009_putRequest_adding_net_revenue" time="5.826">
+		<error message="Lists differ: ['test_blr', 'test', 'test'] != ['test_blr', '&quot;net_revenue&quot;', '{&quot;NetRevenue&quot;:&quot;[&quot;{&quot;id&quot;: [89 chars]]&quot;}']
+
+First differing element 1:
+'test'
+'&quot;net_revenue&quot;'
+
+- ['test_blr', 'test', 'test']
++ ['test_blr',
++  '&quot;net_revenue&quot;',
++  '{&quot;NetRevenue&quot;:&quot;[&quot;{&quot;id&quot;: 1, &quot;client_id&quot;: &quot;test&quot;, &quot;org_id&quot;: &quot;Org1&quot;, &quot;month&quot;: '
++  '1, &quot;year&quot;: 2014, &quot;net_revenue&quot;: 1002}&quot;]&quot;}']" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\tests\RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.py", line 99, in test_Step009_putRequest_adding_net_revenue
+    self.assertEqual(tokka, list(params.values()))
+AssertionError: Lists differ: ['test_blr', 'test', 'test'] != ['test_blr', '"net_revenue"', '{"NetRevenue":"["{"id": [89 chars]]"}']
+
+First differing element 1:
+'test'
+'"net_revenue"'
+
+- ['test_blr', 'test', 'test']
++ ['test_blr',
++  '"net_revenue"',
++  '{"NetRevenue":"["{"id": 1, "client_id": "test", "org_id": "Org1", "month": '
++  '1, "year": 2014, "net_revenue": 1002}"]"}']
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+SELECT * FROM RCANALYTICS_CONFIG_SERVICE.CONFIG_ITEMS WHERE CLIENT_ID = 'test_blr'AND ID = '944';
+['test_blr', 'test', 'test']
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+SELECT * FROM RCANALYTICS_CONFIG_SERVICE.CONFIG_ITEMS WHERE CLIENT_ID = 'test_blr'AND ID = '944';
+['test_blr', 'test', 'test']
+['test_blr', 'test', 'test']
+java -jar tests\auth-header-1.3.jar -k c0c11d7a-48c1-461d-8be9-56e9fb60b28f -s Jjftdr7d_z7kjM1_GTXKskfQZs9aCD1l -p https://api.devcernercare.com/oauth/access > oAuthKey.txt
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

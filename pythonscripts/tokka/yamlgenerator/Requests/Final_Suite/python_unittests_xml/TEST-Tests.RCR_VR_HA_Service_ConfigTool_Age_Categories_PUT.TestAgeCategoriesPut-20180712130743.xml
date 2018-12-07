@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="Tests.RCR_VR_HA_Service_ConfigTool_Age_Categories_PUT.TestAgeCategoriesPut-20180712130743" tests="2" time="18.985">
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Age_Categories_PUT.TestAgeCategoriesPut" name="test_Step1_putRequest" time="13.424"/>
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Age_Categories_PUT.TestAgeCategoriesPut" name="test_Step2_putRequest_error" time="5.561"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

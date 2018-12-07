@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="Tests.RCR_VR_HA_Service_ConfigTool_Targets_PUT.TestTargetsPut-20180706111841" tests="2" time="136.765">
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Targets_PUT.TestTargetsPut" name="test_Step1_putRequest" time="10.569"/>
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Targets_PUT.TestTargetsPut" name="test_Step2_putRequest_error" time="126.196">
+		<error message="('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))" type="ConnectionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 445, in send
+    timeout=timeout
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\util\retry.py", line 357, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\http\client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\Tests\RCR_VR_HA_Service_ConfigTool_Targets_PUT.py", line 81, in test_Step2_putRequest_error
+    self.res = requests.put(self.GET_URL, headers=self.header, json=self.data)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\api.py", line 126, in put
+    return request('put', url, data=data, **kwargs)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\requests\adapters.py", line 495, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\logging\__init__.py", line 992, in emit
+    msg = self.format(record)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\logging\__init__.py", line 838, in format
+    return fmt.format(record)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\logging\__init__.py", line 575, in format
+    record.message = record.getMessage()
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\logging\__init__.py", line 338, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "ConfigToolAutomationPUT.py", line 43, in <module>
+    ret = not result.run(tests).wasSuccessful()
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\site-packages\xmlrunner\xmlrunner.py", line 416, in run
+    test(result)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\unittest\suite.py", line 84, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\unittest\suite.py", line 122, in run
+    test(result)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\unittest\case.py", line 653, in __call__
+    return self.run(*args, **kwds)
+  File "C:\Users\SC057441\AppData\Local\Programs\Python\Python36-32\lib\unittest\case.py", line 605, in run
+    testMethod()
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\Tests\RCR_VR_HA_Service_ConfigTool_Targets_PUT.py", line 57, in test_Step1_putRequest
+    loggingAPI.logger.info(metric_key_list, target_list, top_zone_list, bottom_zone_list)
+Message: ['total_ar', 'total_adjustments', 'total_cash', 'alos', 'clean_claim_rate', 'denial_rate_zero_pay', 'case_mix_index', 'total_gross_revenue']
+Arguments: ([Decimal('1251.0000'), Decimal('1251.2500'), Decimal('1251.0000'), Decimal('2.0000'), Decimal('1251.0000'), Decimal('0.5000'), Decimal('1251.0000'), Decimal('1251.0000')], [Decimal('5000.0000'), Decimal('5000.6900'), Decimal('5000.0000'), Decimal('5.0000'), Decimal('5000.0000'), Decimal('1.0000'), Decimal('5000.0000'), Decimal('5000.0000')], [Decimal('1000.0000'), Decimal('1000.1100'), Decimal('1000.0000'), Decimal('1.0000'), Decimal('1000.0000'), Decimal('0.1000'), Decimal('1000.0000'), Decimal('1000.0000')])
+]]>	</system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="Tests.RCR_VR_HA_Service_ConfigTool_Organization_Map_PUT.TestOrganizationMapsDev-20180712133745" tests="4" time="24.220">
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Organization_Map_PUT.TestOrganizationMapsDev" name="test_Step1_putRequest_newID_validParams" time="6.141"/>
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Organization_Map_PUT.TestOrganizationMapsDev" name="test_Step2_putRequest_newID_invalidParams_error" time="5.829"/>
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Organization_Map_PUT.TestOrganizationMapsDev" name="test_Step3_putRequest_IDExists_validParams" time="6.488"/>
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Organization_Map_PUT.TestOrganizationMapsDev" name="test_Step4_putRequest_IDExists_invalidParams_error" time="5.761"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

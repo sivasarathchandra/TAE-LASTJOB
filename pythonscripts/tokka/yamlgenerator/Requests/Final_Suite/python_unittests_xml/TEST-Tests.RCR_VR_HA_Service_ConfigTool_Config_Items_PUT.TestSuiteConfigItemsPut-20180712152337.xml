@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<testsuite errors="4" failures="0" name="Tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut-20180712152337" tests="4" time="9.563">
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step001_putRequest_empty_clientid" time="2.419">
+		<error message="'401' != '409'
+- 401
+?   ^
++ 409
+?   ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\Tests\RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.py", line 50, in test_Step001_putRequest_empty_clientid
+    self.assertEqual(str(self.response), '409')
+AssertionError: '401' != '409'
+- 401
+?   ^
++ 409
+?   ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step002_putRequest_empty_key_value" time="2.835">
+		<error message="'401' != '409'
+- 401
+?   ^
++ 409
+?   ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\Tests\RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.py", line 58, in test_Step002_putRequest_empty_key_value
+    self.assertEqual(str(self.response), '409')
+AssertionError: '401' != '409'
+- 401
+?   ^
++ 409
+?   ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step003_putRequest_invalid_config_id" time="2.259">
+		<error message="'401' != '404'
+- 401
+?   ^
++ 404
+?   ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\Tests\RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.py", line 66, in test_Step003_putRequest_invalid_config_id
+    self.assertEqual(str(self.response), '404')
+AssertionError: '401' != '404'
+- 401
+?   ^
++ 404
+?   ^
+
+]]>		</error>
+	</testcase>
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.TestSuiteConfigItemsPut" name="test_Step004_patchRequest_new_id" time="2.050">
+		<error message="'401' != '201'
+- 401
+? ^
++ 201
+? ^
+" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\Tests\RCR_VR_HA_Service_ConfigTool_Config_Items_PUT.py", line 75, in test_Step004_patchRequest_new_id
+    self.assertEqual(str(self.response), '201')
+AssertionError: '401' != '201'
+- 401
+? ^
++ 201
+? ^
+
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

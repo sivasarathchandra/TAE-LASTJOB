@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuite errors="2" failures="0" name="Tests.RCR_VR_HA_Service_ConfigTool_Targets_PUT.TestTargetsPut-20180716123440" tests="2" time="0.026">
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Targets_PUT.TestTargetsPut" name="test_Step1_putRequest" time="0.024">
+		<error message="Auth() missing 1 required positional argument: 'z'" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\Tests\RCR_VR_HA_Service_ConfigTool_Targets_PUT.py", line 20, in setUp
+    self.oAuth = oAuthGenerator.Auth(self, self.set_up_list[6], self.set_up_list[7], self.set_up_list[8])
+TypeError: Auth() missing 1 required positional argument: 'z'
+]]>		</error>
+	</testcase>
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Targets_PUT.TestTargetsPut" name="test_Step2_putRequest_error" time="0.002">
+		<error message="Auth() missing 1 required positional argument: 'z'" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\Tests\RCR_VR_HA_Service_ConfigTool_Targets_PUT.py", line 20, in setUp
+    self.oAuth = oAuthGenerator.Auth(self, self.set_up_list[6], self.set_up_list[7], self.set_up_list[8])
+TypeError: Auth() missing 1 required positional argument: 'z'
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

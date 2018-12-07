@@ -1,0 +1,6 @@
+URL=http://services.devhealtheintent.net/rc-dashboard-config-service/targets
+client_id=50187c3d-b72c-4f7a-9a34-b2abe35be868
+DB1=database.devhealtheintent.net
+UN=rc_config_svc
+PWD=rc_config_svc
+DBN=rcanalytics_config_service

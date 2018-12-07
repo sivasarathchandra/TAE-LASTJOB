@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<testsuite errors="2" failures="0" name="Tests.RCR_VR_HA_Service_ConfigTool_Targets_PUT.TestTargetsPut-20180712133601" tests="2" time="0.000">
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Targets_PUT.TestTargetsPut" name="test_Step1_putRequest" time="0.000">
+		<error message="Auth() missing 3 required positional arguments: 'x', 'y', and 'z'" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\Tests\RCR_VR_HA_Service_ConfigTool_Targets_PUT.py", line 20, in setUp
+    self.oAuth = oAuthGenerator.Auth(self)
+TypeError: Auth() missing 3 required positional arguments: 'x', 'y', and 'z'
+]]>		</error>
+	</testcase>
+	<testcase classname="Tests.RCR_VR_HA_Service_ConfigTool_Targets_PUT.TestTargetsPut" name="test_Step2_putRequest_error" time="0.000">
+		<error message="Auth() missing 3 required positional arguments: 'x', 'y', and 'z'" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\SC057441\Desktop\Any\pythonscripts\tokka\yamlgenerator\Requests\Final_Suite\Tests\RCR_VR_HA_Service_ConfigTool_Targets_PUT.py", line 20, in setUp
+    self.oAuth = oAuthGenerator.Auth(self)
+TypeError: Auth() missing 3 required positional arguments: 'x', 'y', and 'z'
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

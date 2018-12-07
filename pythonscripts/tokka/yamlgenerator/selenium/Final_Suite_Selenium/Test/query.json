@@ -1,0 +1,3 @@
+{
+  "APP_DATA": ["select * from app_il_cdh5.ph_f_affiliation LIMIT 10","RC_F_CLIENT_AR_BALANCE"]
+}

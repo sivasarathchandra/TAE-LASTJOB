@@ -1,0 +1,2366 @@
+accounts:
+- accountId: 23577834
+  accountNumber: '53038'
+  active: true
+  balance: '428.96'
+  billingLocation:
+    name: SP_ANALYTICSORG
+    sourceId: '192410211'
+    timeZoneId: America/Chicago
+    types: []
+  billingOrganization:
+    aliases:
+    - type: EXTERNAL
+      value: '8174322'
+    name: SP_AnalyticsOrg
+  createdDate: '2016-10-26T06:16:09.000Z'
+  dailyAccountBalances:
+  - adjustmentAmount: '0.0'
+    beginEffectiveDate: '2016-10-28T06:00:00.000Z'
+    beginningBalanceAmount: '0.0'
+    endEffectiveDate: '2016-10-30T05:59:59.000Z'
+    endOfDayAccountBalanceAmount: '-99.99'
+    lastPaymentDate: '2016-10-29T05:28:06.000Z'
+    paymentAmount: '-99.99'
+  - beginEffectiveDate: '2016-10-30T06:00:00.000Z'
+    beginningBalanceAmount: '-99.99'
+    endEffectiveDate: '2016-11-02T05:59:59.000Z'
+    endOfDayAccountBalanceAmount: '-99.0'
+    lastPaymentDate: '2016-10-28T06:00:00.000Z'
+    paymentAmount: '0.99'
+  - adjustmentAmount: '0.95'
+    beginEffectiveDate: '2016-11-02T08:59:59.000Z'
+    beginningBalanceAmount: '-99.0'
+    endEffectiveDate: '2016-11-03T05:59:59.000Z'
+    endOfDayAccountBalanceAmount: '27.0'
+    lastPaymentDate: '2017-12-29T06:00:00.000Z'
+    paymentAmount: '125.05'
+  - adjustmentAmount: '-280.0'
+    beginEffectiveDate: '2016-11-02T08:59:59.000Z'
+    beginningBalanceAmount: '27.0'
+    endEffectiveDate: '2016-11-04T05:59:59.000Z'
+    endOfDayAccountBalanceAmount: '-253.0'
+    lastPaymentDate: '2015-12-29T06:00:00.000Z'
+  - adjustmentAmount: '280.0'
+    beginEffectiveDate: '2015-12-31T06:00:00.000Z'
+    beginningBalanceAmount: '-253.0'
+    endEffectiveDate: '2016-01-01T05:59:59.000Z'
+    endOfDayAccountBalanceAmount: '27.0'
+    lastPaymentDate: '2015-12-29T06:00:00.000Z'
+  - beginEffectiveDate: '2016-01-01T06:00:00.000Z'
+    beginningBalanceAmount: '27.0'
+    endEffectiveDate: '2016-01-02T05:59:59.000Z'
+    endOfDayAccountBalanceAmount: '-10.0'
+    lastPaymentDate: '2016-01-01T06:00:00.000Z'
+    paymentAmount: '-37.0'
+  - adjustmentAmount: '440.01'
+    beginEffectiveDate: '2016-01-02T06:00:00.000Z'
+    beginningBalanceAmount: '-10.0'
+    endEffectiveDate: '2100-12-31T23:59:59.000Z'
+    endOfDayAccountBalanceAmount: '428.96'
+    lastPaymentDate: '2016-01-02T06:00:00.000Z'
+    paymentAmount: '-1.05'
+  description: CERT NONARGl VR testing
+  endEffectiveDate: '2100-12-31T00:00:00.000Z'
+  status: OPEN
+  subType:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+      display: Non A/R - GL Only
+      id: 662361
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:account:subtype
+        display: Non A/R - GL Only
+        id: NONARGLONLY
+    standard:
+      codingSystemId: 2.16.840.1.113883.5.6
+      id: ACCT
+  type: NON_AR_GL_ONLY
+  uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:23577834,std:acct_23577834
+- Patient Name: Shiva
+recordId:
+  accountId: 23577834
+  dataPartitionId: 511d71b2-c065-4799-a0e4-7039086f95d3
+transactions:
+- accountId: 23577834
+  accountType: NON_AR_GL_ONLY
+  active: true
+  amount: -99.99
+  chargeIds: []
+  generalLedgerActivities:
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Applied
+        id: '627541'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Applied
+          id: APPLIED
+      standard:
+        codingSystemId: urn:cerner:codingsystem:account:subtype
+        id: APPLIED
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Cash
+        id: '11024'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Cash
+          id: CASH
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: PAY
+    amount: 99.99
+    createdDate: '2016-01-01T12:24:02.000Z'
+    departments:
+    - description: SP Test NPBE
+      name: SP Test NPBE
+    - description: Default Cash CU
+      name: Default Cash CU
+    - description: Default Cash AN
+      name: Default Cash AN
+    - description: Default Cash AU
+      name: Default Cash AU
+    generalLedgerActivityId: 69890260
+    offset: false
+    parentGeneralLedgerActivityId: 0
+    postedDate: '2015-12-25T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: 649928
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2015-12-26T05:28:06.000Z'
+    transactionId: 121182863
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: 1
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: 1
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: 9740801920
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: 1116998114
+      fullName: SYSTEM, SYSTEM
+      providerId: 1
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Non A/R - GL Only
+        id: 662361
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Non A/R - GL Only
+          id: NONARGLONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Non A/R - GL Only
+        id: 662345
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Non A/R - GL Only
+          id: NON_AR_GL_ONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    amount: -99.99
+    createdDate: '2016-01-01T12:24:02.000Z'
+    departments:
+    - description: SP NPBE
+      name: SP NPBE
+    - description: Default
+      name: Default CU
+    - description: Default
+      name: Default AN
+    - description: Deafult
+      name: Deafult AU
+    generalLedgerActivityId: 69890256
+    offset: false
+    parentGeneralLedgerActivityId: 0
+    postedDate: '2015-12-25T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: 649928
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2015-12-26T05:28:06.000Z'
+    transactionId: 121182863
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: 1
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: 1
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: 9740801920
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: 1116998114
+      fullName: SYSTEM, SYSTEM
+      providerId: 1
+  generalLedgerInterfaces: []
+  lineItems: []
+  paymentDetail:
+  - changeDueAmount: '0.0'
+    paidAmount: 99.99
+    paymentMethod:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20589
+        display: Electronic Fund Transfer
+        id: 627181
+        translations:
+        - codingSystemId: 2.16.840.1.113883.5.4
+          display: Electronic Fund Transfer
+          id: DDP
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: DDP
+    paymentTrackingNumber: day2
+    tenderedAmount: 99.99
+  reason:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:18937
+      display: Transfer Payment to Correct Account
+      id: '626205'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:reason
+        display: Transfer Payment to Correct Account
+        id: TRANSPYMTO
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:reason
+      id: TRANSPYMTO
+  relatedTransactions: []
+  remittanceDate: '2015-12-25T06:00:00.000Z'
+  source:
+    id: '121182863'
+    normalizedEntityLocator:
+      entityKey: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/norm_charge_transaction:121182863
+      version: 0
+    rawEntityLocators:
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/transactions:121182863
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69890260
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69890256
+      version: 0
+    type: BILLING
+  transactionAlias: 1400
+  transactionDate: '2015-12-26T05:28:06.000Z'
+  transactionId: 121182863
+  transactionSubType:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: Non A/R - GL Only Payment
+      id: '674442'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:subtype
+        display: Non A/R - GL Only Payment
+        id: GLONLYPAY
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+      id: GLONLYPAY
+  transactionType: PAYMENT
+  uid: /partition:511d71b2-c065-4799-a0e4-7039086f95d3/account:23577834,std:txn_121182863
+- accountId: 23577834
+  accountType: NON_AR_GL_ONLY
+  active: true
+  amount: 0.99
+  chargeIds: []
+  generalLedgerActivities:
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Non A/R - GL Only
+        id: '662361'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Non A/R - GL Only
+          id: NONARGLONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Non A/R - GL Only
+        id: '662345'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Non A/R - GL Only
+          id: NON_AR_GL_ONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    amount: 0.99
+    createdDate: '2018-01-01T12:24:54.000Z'
+    departments:
+    - description: SP NPBE
+      name: SP NPBE
+    - description: Default
+      name: Default CU
+    - description: Default
+      name: Default AN
+    - description: Deafult
+      name: Deafult AU
+    generalLedgerActivityId: 69897636
+    offset: false
+    parentGeneralLedgerActivityId: 0
+    postedDate: '2017-12-27T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: 649928
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2017-12-28T05:28:37.000Z'
+    transactionId: 121406317
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: 1
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: 1
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: 9740801920
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: 1116998114
+      fullName: SYSTEM, SYSTEM
+      providerId: 1
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Applied
+        id: 627541
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Applied
+          id: APPLIED
+      standard:
+        codingSystemId: urn:cerner:codingsystem:account:subtype
+        id: APPLIED
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Cash
+        id: 11024
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Cash
+          id: CASH
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: PAY
+    amount: -0.99
+    createdDate: '2018-01-01T12:24:54.000Z'
+    departments:
+    - description: SP Test NPBE
+      name: SP Test NPBE
+    - description: Default Cash CU
+      name: Default Cash CU
+    - description: Default Cash AN
+      name: Default Cash AN
+    - description: Default Cash AU
+      name: Default Cash AU
+    generalLedgerActivityId: 69897638
+    offset: false
+    parentGeneralLedgerActivityId: 0
+    postedDate: '2017-12-27T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: 649928
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2017-12-28T05:28:37.000Z'
+    transactionId: 121406317
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: 1
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: 1
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: 9740801920
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: 1116998114
+      fullName: SYSTEM, SYSTEM
+      providerId: 1
+  generalLedgerInterfaces: []
+  lineItems: []
+  paymentDetail:
+  - changeDueAmount: '0.0'
+    paidAmount: 0.99
+    paymentMethod:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20589
+        display: Credit Card
+        id: 627180
+        translations:
+        - codingSystemId: 2.16.840.1.113883.5.4
+          display: Credit Card
+          id: CC
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: CC
+    tenderedAmount: 0.99
+  reason:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:18937
+      display: Charge Adjustment Debit
+      id: '626128'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:reason
+        display: Charge Adjustment Debit
+        id: CHGADJDR
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:reason
+      id: CHGADJDR
+  relatedTransactions: []
+  remittanceDate: '2017-12-27T06:00:00.000Z'
+  source:
+    id: '121406317'
+    normalizedEntityLocator:
+      entityKey: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/norm_charge_transaction:121406317
+      version: 0
+    rawEntityLocators:
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/transactions:121406317
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69897636
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69897638
+      version: 0
+    type: BILLING
+  transactionAlias: AUTO PAYMENT DEBIT
+  transactionDate: '2017-12-28T05:28:37.000Z'
+  transactionId: 121406317
+  transactionSubType:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: Third Party Payment
+      id: '649401'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:subtype
+        display: Third Party Payment
+        id: 3RDPARTYPAY
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+      id: 3RDPARTYPAY
+  transactionType: PAYMENT
+  uid: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/account:23577834,std:txn_121406317
+- accountId: 23577834
+  accountType: NON_AR_GL_ONLY
+  active: true
+  amount: 100.0
+  chargeIds: []
+  generalLedgerActivities:
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Applied
+        id: '627541'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Applied
+          id: APPLIED
+      standard:
+        codingSystemId: urn:cerner:codingsystem:account:subtype
+        id: APPLIED
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Cash
+        id: 11024
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Cash
+          id: CASH
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: PAY
+    amount: -100.0
+    createdDate: '2018-01-01T12:25:27.000Z'
+    departments:
+    - description: SP Test NPBE
+      name: SP Test NPBE
+    - description: Default Cash CU
+      name: Default Cash CU
+    - description: Default Cash AN
+      name: Default Cash AN
+    - description: Default Cash AU
+      name: Default Cash AU
+    generalLedgerActivityId: 69902417
+    offset: false
+    parentGeneralLedgerActivityId: 0
+    postedDate: '2017-12-28T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: 649928
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2017-12-29T06:58:09.000Z'
+    transactionId: 121572652
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: 1
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: 1
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: 9740801920
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: 1116998114
+      fullName: SYSTEM, SYSTEM
+      providerId: 1
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Non A/R - GL Only
+        id: 662361
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Non A/R - GL Only
+          id: NONARGLONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Non A/R - GL Only
+        id: 662345
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Non A/R - GL Only
+          id: NON_AR_GL_ONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    amount: 100.0
+    createdDate: '2018-01-01T12:25:27.000Z'
+    departments:
+    - description: SP NPBE
+      name: SP NPBE
+    - description: Default
+      name: Default CU
+    - description: Default
+      name: Default AN
+    - description: Deafult
+      name: Deafult AU
+    generalLedgerActivityId: 69902405
+    offset: false
+    parentGeneralLedgerActivityId: 0
+    postedDate: '2017-12-28T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: 649928
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2017-12-29T06:58:09.000Z'
+    transactionId: 121572652
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: 1
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: 1
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: 9740801920
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: 1116998114
+      fullName: SYSTEM, SYSTEM
+      providerId: 1
+  generalLedgerInterfaces: []
+  lineItems: []
+  paymentDetail:
+  - changeDueAmount: '0.0'
+    paidAmount: 100.0
+    paymentMethod:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20589
+        display: Travelers Check
+        id: 627183
+        translations:
+        - codingSystemId: 2.16.840.1.113883.5.4
+          display: Travelers Check
+          id: CHK
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: CHK
+    paymentTrackingNumber: 8008
+    tenderedAmount: 100.0
+  reason:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:18937
+      display: Charge Adjustment Debit
+      id: '626128'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:reason
+        display: Charge Adjustment Debit
+        id: CHGADJDR
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:reason
+      id: CHGADJDR
+  relatedTransactions: []
+  remittanceDate: '2017-12-28T06:00:00.000Z'
+  source:
+    id: '121572652'
+    normalizedEntityLocator:
+      entityKey: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/norm_charge_transaction:121572652
+      version: 0
+    rawEntityLocators:
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/transactions:121572652
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69902417
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69902405
+      version: 0
+    type: BILLING
+  transactionAlias: AUTO PAYMENT DEBIT
+  transactionDate: '2017-12-29T06:58:09.000Z'
+  transactionId: 121572652
+  transactionSubType:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: Third Party Payment
+      id: '649401'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:subtype
+        display: Third Party Payment
+        id: 3RDPARTYPAY
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+      id: 3RDPARTYPAY
+  transactionType: PAYMENT
+  uid: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/account:23577834,std:txn_121572652
+- accountId: 23577834
+  accountType: NON_AR_GL_ONLY
+  active: true
+  amount: 25.05
+  chargeIds: []
+  generalLedgerActivities:
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Non A/R - GL Only
+        id: '662361'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Non A/R - GL Only
+          id: NONARGLONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Non A/R - GL Only
+        id: 662345
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Non A/R - GL Only
+          id: NON_AR_GL_ONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    amount: 25.05
+    createdDate: '2018-01-01T12:25:18.000Z'
+    departments:
+    - description: SP NPBE
+      name: SP NPBE
+    - description: Default
+      name: Default CU
+    - description: Default
+      name: Default AN
+    - description: Deafult
+      name: Deafult AU
+    generalLedgerActivityId: 69901168
+    offset: false
+    parentGeneralLedgerActivityId: 0
+    postedDate: '2017-12-28T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: 649928
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2017-12-29T07:01:17.000Z'
+    transactionId: 121574710
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: 1
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: 1
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: 9740801920
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: 1116998114
+      fullName: SYSTEM, SYSTEM
+      providerId: 1
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Applied
+        id: 627541
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Applied
+          id: APPLIED
+      standard:
+        codingSystemId: urn:cerner:codingsystem:account:subtype
+        id: APPLIED
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Cash
+        id: 11024
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Cash
+          id: CASH
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: PAY
+    amount: -25.05
+    createdDate: '2018-01-01T12:25:18.000Z'
+    departments:
+    - description: SP Test NPBE
+      name: SP Test NPBE
+    - description: Default Cash CU
+      name: Default Cash CU
+    - description: Default Cash AN
+      name: Default Cash AN
+    - description: Default Cash AU
+      name: Default Cash AU
+    generalLedgerActivityId: 69901170
+    offset: false
+    parentGeneralLedgerActivityId: 0
+    postedDate: '2017-12-28T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: 649928
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2017-12-29T07:01:17.000Z'
+    transactionId: 121574710
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: 1
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: 1
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: 9740801920
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: 1116998114
+      fullName: SYSTEM, SYSTEM
+      providerId: 1
+  generalLedgerInterfaces: []
+  lineItems: []
+  paymentDetail:
+  - changeDueAmount: '0.0'
+    paidAmount: 25.05
+    paymentMethod:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20589
+        display: Money Order
+        id: 685188
+        translations:
+        - codingSystemId: 2.16.840.1.113883.5.4
+          display: Money Order
+          id: CHK
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: CHK
+    paymentTrackingNumber: 8018
+    tenderedAmount: 25.05
+  reason:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:18937
+      display: Charge Adjustment Debit
+      id: '626128'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:reason
+        display: Charge Adjustment Debit
+        id: CHGADJDR
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:reason
+      id: CHGADJDR
+  relatedTransactions:
+  - reason:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25753
+        display: TRANSFER
+        id: '649936'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:transaction:relatedreason
+          display: TRANSFER
+          id: TRANSFER
+      standard:
+        codingSystemId: urn:cerner:codingsystem:transaction:relatedreason
+        id: TRANSFER
+    relatedTransactionId: '121915730'
+  - reason:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25753
+        display: REVERSAL
+        id: '649935'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:transaction:relatedreason
+          display: REVERSAL
+          id: REVERSAL
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: REV
+    relatedTransactionId: '121915741'
+  remittanceDate: '2017-12-28T06:00:00.000Z'
+  source:
+    id: '121574710'
+    normalizedEntityLocator:
+      entityKey: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/norm_charge_transaction:121574710
+      version: 0
+    rawEntityLocators:
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/transactions:121574710
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69901168
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69901170
+      version: 0
+    type: BILLING
+  transactionAlias: AUTO PAYMENT DEBIT
+  transactionDate: '2017-12-29T07:01:17.000Z'
+  transactionId: 121574710
+  transactionSubType:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: Third Party Payment
+      id: '649401'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:subtype
+        display: Third Party Payment
+        id: 3RDPARTYPAY
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+      id: 3RDPARTYPAY
+  transactionType: PAYMENT
+  uid: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/account:23577834,std:txn_121574710
+- accountId: '23577834'
+  accountType: NON_AR_GL_ONLY
+  active: true
+  amount: '0.95'
+  chargeIds: []
+  generalLedgerActivities:
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Contractual Adjustment
+        id: '627545'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Contractual Adjustment
+          id: CONTRACTADJ
+      standard:
+        codingSystemId: urn:cerner:codingsystem:account:subtype
+        id: CONTRACTADJ
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Contra Revenue
+        id: '649381'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Contra Revenue
+          id: CONTRA_REV
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: RECOV
+    amount: '-0.95'
+    createdDate: '2018-01-01T12:25:18.000Z'
+    departments:
+    - description: '     SP NPBE'
+      name: SP NPBE
+    - description: ttt
+      name: def
+    - description: test
+      name: def1
+    - description: test1
+      name: def3
+    generalLedgerActivityId: '69901174'
+    offset: false
+    parentGeneralLedgerActivityId: '0'
+    postedDate: '2017-12-28T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: '649928'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2017-12-29T07:03:27.000Z'
+    transactionId: '121575555'
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: '1'
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: '1'
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: '9740801920'
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: '1116998114'
+      fullName: SYSTEM, SYSTEM
+      providerId: '1'
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Non A/R - GL Only
+        id: '662361'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Non A/R - GL Only
+          id: NONARGLONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Non A/R - GL Only
+        id: '662345'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Non A/R - GL Only
+          id: NON_AR_GL_ONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    amount: '0.95'
+    createdDate: '2018-01-01T12:25:18.000Z'
+    departments:
+    - description: SP NPBE
+      name: SP NPBE
+    - description: Default
+      name: Default CU
+    - description: Default
+      name: Default AN
+    - description: Deafult
+      name: Deafult AU
+    generalLedgerActivityId: '69901172'
+    offset: false
+    parentGeneralLedgerActivityId: '0'
+    postedDate: '2017-12-28T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: '649928'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2017-12-29T07:03:27.000Z'
+    transactionId: '121575555'
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: '1'
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: '1'
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: '9740801920'
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: '1116998114'
+      fullName: SYSTEM, SYSTEM
+      providerId: '1'
+  generalLedgerInterfaces: []
+  lineItems: []
+  paymentDetail: []
+  reason:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:18937
+      display: Automated Refund
+      id: '685133'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:reason
+        display: Automated Refund
+        id: AUTOREFUND
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:reason
+      id: AUTOREFUND
+  relatedTransactions: []
+  remittanceDate: '2017-12-28T06:00:00.000Z'
+  source:
+    id: '121575555'
+    normalizedEntityLocator:
+      entityKey: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/norm_charge_transaction:121575555
+      version: 0
+    rawEntityLocators:
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/transactions:121575555
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69901174
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69901172
+      version: 0
+    type: BILLING
+  transactionAlias: AP REFUND_DEBIT
+  transactionDate: '2017-12-29T07:03:27.000Z'
+  transactionId: '121575555'
+  transactionSubType:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: Auto Refund
+      id: '685176'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:subtype
+        display: Auto Refund
+        id: AUTOREFUND
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+      id: AUTOREFUND
+  transactionType: ADJUSTMENT
+  uid: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/account:23577834,std:txn_121575555
+- accountId: '23577834'
+  accountType: NON_AR_GL_ONLY
+  active: true
+  amount: '-280.0'
+  chargeIds: []
+  generalLedgerActivities:
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Non A/R - GL Only
+        id: '662361'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Non A/R - GL Only
+          id: NONARGLONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Non A/R - GL Only
+        id: '662345'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Non A/R - GL Only
+          id: NON_AR_GL_ONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    amount: '-280.0'
+    createdDate: '2018-01-01T12:25:49.000Z'
+    departments:
+    - description: SP NPBE
+      name: SP NPBE
+    - description: Default
+      name: Default CU
+    - description: Default
+      name: Default AN
+    - description: Deafult
+      name: Deafult AU
+    generalLedgerActivityId: '69905929'
+    offset: false
+    parentGeneralLedgerActivityId: '0'
+    postedDate: '2017-12-30T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: '649928'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2017-12-31T04:57:28.000Z'
+    transactionId: '121713782'
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: '1'
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: '1'
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: '9740801920'
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: '1116998114'
+      fullName: SYSTEM, SYSTEM
+      providerId: '1'
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Contractual Adjustment
+        id: '627545'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Contractual Adjustment
+          id: CONTRACTADJ
+      standard:
+        codingSystemId: urn:cerner:codingsystem:account:subtype
+        id: CONTRACTADJ
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Contra Revenue
+        id: '649381'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Contra Revenue
+          id: CONTRA_REV
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: RECOV
+    amount: '280.0'
+    createdDate: '2018-01-01T12:25:49.000Z'
+    departments:
+    - description: '     SP NPBE'
+      name: SP NPBE
+    - description: ttt
+      name: def
+    - description: test
+      name: def1
+    - description: test1
+      name: def3
+    generalLedgerActivityId: '69905933'
+    offset: false
+    parentGeneralLedgerActivityId: '0'
+    postedDate: '2017-12-30T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: '649928'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2017-12-31T04:57:28.000Z'
+    transactionId: '121713782'
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: '1'
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: '1'
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: '9740801920'
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: '1116998114'
+      fullName: SYSTEM, SYSTEM
+      providerId: '1'
+  generalLedgerInterfaces: []
+  lineItems: []
+  paymentDetail: []
+  reason:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:18937
+      display: Champus Payment
+      id: '626121'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:reason
+        display: Champus Payment
+        id: CHAMPUSPAY
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:reason
+      id: CHAMPUSPAY
+  relatedTransactions:
+  - reason:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25753
+        display: REVERSAL
+        id: '649935'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:transaction:relatedreason
+          display: REVERSAL
+          id: REVERSAL
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: REV
+    relatedTransactionId: '121730471'
+  remittanceDate: '2017-12-30T06:00:00.000Z'
+  source:
+    id: '121713782'
+    normalizedEntityLocator:
+      entityKey: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/norm_charge_transaction:121713782
+      version: 0
+    rawEntityLocators:
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/transactions:121713782
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69905933
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69905929
+      version: 0
+    type: BILLING
+  transactionAlias: TESTING_1
+  transactionDate: '2017-12-31T04:57:28.000Z'
+  transactionId: '121713782'
+  transactionSubType:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: Non A/R - GL Only Adjustment
+      id: '685183'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:subtype
+        display: Non A/R - GL Only Adjustment
+        id: GLONLYADJ
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+      id: GLONLYADJ
+  transactionType: ADJUSTMENT
+  uid: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/account:23577834,std:txn_121713782
+- accountId: '23577834'
+  accountType: NON_AR_GL_ONLY
+  active: true
+  amount: '280.0'
+  chargeIds: []
+  generalLedgerActivities:
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Contractual Adjustment
+        id: '627545'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Contractual Adjustment
+          id: CONTRACTADJ
+      standard:
+        codingSystemId: urn:cerner:codingsystem:account:subtype
+        id: CONTRACTADJ
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Contra Revenue
+        id: '649381'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Contra Revenue
+          id: CONTRA_REV
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: RECOV
+    amount: '-280.0'
+    createdDate: '2018-01-01T12:25:47.000Z'
+    departments:
+    - description: '     SP NPBE'
+      name: SP NPBE
+    - description: ttt
+      name: def
+    - description: test
+      name: def1
+    - description: test1
+      name: def3
+    generalLedgerActivityId: '69905703'
+    offset: false
+    parentGeneralLedgerActivityId: '0'
+    postedDate: '2017-12-30T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: '649928'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2017-12-31T10:49:09.000Z'
+    transactionId: '121730471'
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: '1'
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: '1'
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: '9740801920'
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: '1116998114'
+      fullName: SYSTEM, SYSTEM
+      providerId: '1'
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Non A/R - GL Only
+        id: '662361'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Non A/R - GL Only
+          id: NONARGLONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Non A/R - GL Only
+        id: '662345'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Non A/R - GL Only
+          id: NON_AR_GL_ONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    amount: '280.0'
+    createdDate: '2018-01-01T12:25:47.000Z'
+    departments:
+    - description: SP NPBE
+      name: SP NPBE
+    - description: Default
+      name: Default CU
+    - description: Default
+      name: Default AN
+    - description: Deafult
+      name: Deafult AU
+    generalLedgerActivityId: '69905699'
+    offset: false
+    parentGeneralLedgerActivityId: '0'
+    postedDate: '2017-12-30T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: '649928'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2017-12-31T10:49:09.000Z'
+    transactionId: '121730471'
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: '1'
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: '1'
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: '9740801920'
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: '1116998114'
+      fullName: SYSTEM, SYSTEM
+      providerId: '1'
+  generalLedgerInterfaces: []
+  lineItems: []
+  paymentDetail: []
+  reason:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:18937
+      display: REVERSAL
+      id: '649387'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:reason
+        display: REVERSAL
+        id: REVERSAL
+    standard:
+      codingSystemId: 2.16.840.1.113883.5.4
+      id: REV
+  relatedTransactions: []
+  remittanceDate: '2017-12-30T06:00:00.000Z'
+  source:
+    id: '121730471'
+    normalizedEntityLocator:
+      entityKey: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/norm_charge_transaction:121730471
+      version: 0
+    rawEntityLocators:
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/transactions:121730471
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69905703
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69905699
+      version: 0
+    type: BILLING
+  transactionAlias: TESTING_1
+  transactionDate: '2017-12-31T10:49:09.000Z'
+  transactionId: '121730471'
+  transactionSubType:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: Non A/R - GL Only Adjustment
+      id: '685183'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:subtype
+        display: Non A/R - GL Only Adjustment
+        id: GLONLYADJ
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+      id: GLONLYADJ
+  transactionType: ADJUSTMENT
+  uid: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/account:23577834,std:txn_121730471
+- accountId: '23577834'
+  accountType: NON_AR_GL_ONLY
+  active: true
+  amount: '-37.0'
+  chargeIds: []
+  generalLedgerActivities:
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Non A/R - GL Only
+        id: '662361'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Non A/R - GL Only
+          id: NONARGLONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Non A/R - GL Only
+        id: '662345'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Non A/R - GL Only
+          id: NON_AR_GL_ONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    amount: '-37.0'
+    createdDate: '2018-01-01T12:24:04.000Z'
+    departments:
+    - description: SP NPBE
+      name: SP NPBE
+    - description: Default
+      name: Default CU
+    - description: Default
+      name: Default AN
+    - description: Deafult
+      name: Deafult AU
+    generalLedgerActivityId: '69890600'
+    offset: false
+    parentGeneralLedgerActivityId: '0'
+    postedDate: '2018-01-01T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: '649928'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2018-01-01T11:14:54.000Z'
+    transactionId: '121809366'
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: '1'
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: '1'
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: '9740801920'
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: '1116998114'
+      fullName: SYSTEM, SYSTEM
+      providerId: '1'
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Applied
+        id: '627541'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Applied
+          id: APPLIED
+      standard:
+        codingSystemId: urn:cerner:codingsystem:account:subtype
+        id: APPLIED
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Cash
+        id: '11024'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Cash
+          id: CASH
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: PAY
+    amount: '37.0'
+    createdDate: '2018-01-01T12:24:04.000Z'
+    departments:
+    - description: SP Test NPBE
+      name: SP Test NPBE
+    - description: Default Cash CU
+      name: Default Cash CU
+    - description: Default Cash AN
+      name: Default Cash AN
+    - description: Default Cash AU
+      name: Default Cash AU
+    generalLedgerActivityId: '69890602'
+    offset: false
+    parentGeneralLedgerActivityId: '0'
+    postedDate: '2018-01-01T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: '649928'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2018-01-01T11:14:54.000Z'
+    transactionId: '121809366'
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: '1'
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: '1'
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: '9740801920'
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: '1116998114'
+      fullName: SYSTEM, SYSTEM
+      providerId: '1'
+  generalLedgerInterfaces: []
+  lineItems: []
+  paymentDetail:
+  - changeDueAmount: '0.0'
+    paidAmount: '37.0'
+    paymentMethod:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20589
+        display: Check
+        id: '627179'
+        translations:
+        - codingSystemId: 2.16.840.1.113883.5.4
+          display: Check
+          id: CHK
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: CHK
+    paymentTrackingNumber: '11111'
+    tenderedAmount: '37.0'
+  reason:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:18937
+      display: Transfer Payment to Correct Account
+      id: '626205'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:reason
+        display: Transfer Payment to Correct Account
+        id: TRANSPYMTO
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:reason
+      id: TRANSPYMTO
+  relatedTransactions: []
+  remittanceDate: '2018-01-01T06:00:00.000Z'
+  source:
+    id: '121809366'
+    normalizedEntityLocator:
+      entityKey: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/norm_charge_transaction:121809366
+      version: 0
+    rawEntityLocators:
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/transactions:121809366
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69890600
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69890602
+      version: 0
+    type: BILLING
+  transactionAlias: '1400'
+  transactionDate: '2018-01-01T11:14:54.000Z'
+  transactionId: '121809366'
+  transactionSubType:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: Non A/R - GL Only Payment
+      id: '674442'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:subtype
+        display: Non A/R - GL Only Payment
+        id: GLONLYPAY
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+      id: GLONLYPAY
+  transactionType: PAYMENT
+  uid: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/account:23577834,std:txn_121809366
+- accountId: 23577834
+  accountType: NON_AR_GL_ONLY
+  active: true
+  amount: 10.01
+  chargeIds: []
+  generalLedgerActivities:
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Non A/R - GL Only
+        id: '662361'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Non A/R - GL Only
+          id: NONARGLONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Non A/R - GL Only
+        id: 662345
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Non A/R - GL Only
+          id: NON_AR_GL_ONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    amount: 10.01
+    createdDate: '2018-01-01T12:23:52.000Z'
+    departments:
+    - description: SP NPBE
+      name: SP NPBE
+    - description: Default
+      name: Default CU
+    - description: Default
+      name: Default AN
+    - description: Deafult
+      name: Deafult AU
+    generalLedgerActivityId: 69888858
+    offset: false
+    parentGeneralLedgerActivityId: 0
+    postedDate: '2018-01-01T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: 649928
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2018-01-01T11:22:58.000Z'
+    transactionId: 121809683
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: 1
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: 1
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: 9740801920
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: 1116998114
+      fullName: SYSTEM, SYSTEM
+      providerId: 1
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Applied
+        id: 627541
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Applied
+          id: APPLIED
+      standard:
+        codingSystemId: urn:cerner:codingsystem:account:subtype
+        id: APPLIED
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Cash
+        id: 11024
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Cash
+          id: CASH
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: PAY
+    amount: -10.01
+    createdDate: '2018-01-01T12:23:52.000Z'
+    departments:
+    - description: SP Test NPBE
+      name: SP Test NPBE
+    - description: Default Cash CU
+      name: Default Cash CU
+    - description: Default Cash AN
+      name: Default Cash AN
+    - description: Default Cash AU
+      name: Default Cash AU
+    generalLedgerActivityId: 69888864
+    offset: false
+    parentGeneralLedgerActivityId: 0
+    postedDate: '2018-01-01T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: 649928
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2018-01-01T11:22:58.000Z'
+    transactionId: 121809683
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: 1
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: 1
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: 9740801920
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: 1116998114
+      fullName: SYSTEM, SYSTEM
+      providerId: 1
+  generalLedgerInterfaces: []
+  lineItems: []
+  paymentDetail:
+  - changeDueAmount: '0.0'
+    paidAmount: 10.01
+    paymentMethod:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20589
+        display: Cash
+        id: 627177
+        translations:
+        - codingSystemId: 2.16.840.1.113883.5.4
+          display: Cash
+          id: CASH
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: CASH
+    paymentTrackingNumber: 11
+    tenderedAmount: 10.01
+  reason:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:18937
+      display: Charge Adjustment Debit
+      id: '626128'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:reason
+        display: Charge Adjustment Debit
+        id: CHGADJDR
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:reason
+      id: CHGADJDR
+  relatedTransactions:
+  - reason:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25753
+        display: REVERSAL
+        id: '649935'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:transaction:relatedreason
+          display: REVERSAL
+          id: REVERSAL
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: REV
+    relatedTransactionId: '121810321'
+  remittanceDate: '2018-01-01T06:00:00.000Z'
+  source:
+    id: '121809683'
+    normalizedEntityLocator:
+      entityKey: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/norm_charge_transaction:121809683
+      version: 0
+    rawEntityLocators:
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/transactions:121809683
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69888858
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69888864
+      version: 0
+    type: BILLING
+  transactionAlias: AUTO PAYMENT DEBIT
+  transactionDate: '2018-01-01T11:22:58.000Z'
+  transactionId: 121809683
+  transactionSubType:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: Third Party Payment
+      id: '649401'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:subtype
+        display: Third Party Payment
+        id: 3RDPARTYPAY
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+      id: 3RDPARTYPAY
+  transactionType: PAYMENT
+  uid: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/account:23577834,std:txn_121809683
+- accountId: '23577834'
+  accountType: NON_AR_GL_ONLY
+  active: true
+  amount: '-10.01'
+  chargeIds: []
+  generalLedgerActivities:
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Applied
+        id: '627541'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Applied
+          id: APPLIED
+      standard:
+        codingSystemId: urn:cerner:codingsystem:account:subtype
+        id: APPLIED
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Cash
+        id: '11024'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Cash
+          id: CASH
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: PAY
+    amount: '10.01'
+    createdDate: '2018-01-01T12:24:05.000Z'
+    departments:
+    - description: SP Test NPBE
+      name: SP Test NPBE
+    - description: Default Cash CU
+      name: Default Cash CU
+    - description: Default Cash AN
+      name: Default Cash AN
+    - description: Default Cash AU
+      name: Default Cash AU
+    generalLedgerActivityId: '69890644'
+    offset: false
+    parentGeneralLedgerActivityId: '0'
+    postedDate: '2018-01-01T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: '649928'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2018-01-01T11:41:36.000Z'
+    transactionId: '121810321'
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: '1'
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: '1'
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: '9740801920'
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: '1116998114'
+      fullName: SYSTEM, SYSTEM
+      providerId: '1'
+  - accountSubType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20849
+        display: Non A/R - GL Only
+        id: '662361'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:subtype
+          display: Non A/R - GL Only
+          id: NONARGLONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    accountType:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:18736
+        display: Non A/R - GL Only
+        id: '662345'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:account:type
+          display: Non A/R - GL Only
+          id: NON_AR_GL_ONLY
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.6
+        id: ACCT
+    amount: '-10.01'
+    createdDate: '2018-01-01T12:24:05.000Z'
+    departments:
+    - description: SP NPBE
+      name: SP NPBE
+    - description: Default
+      name: Default CU
+    - description: Default
+      name: Default AN
+    - description: Deafult
+      name: Deafult AU
+    generalLedgerActivityId: '69890642'
+    offset: false
+    parentGeneralLedgerActivityId: '0'
+    postedDate: '2018-01-01T06:00:00.000Z'
+    reclassified: false
+    status:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25571
+        display: Pending
+        id: '649928'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:generalledger:status
+          display: Pending
+          id: PENDING
+      standard:
+        codingSystemId: urn:cerner:codingsystem:generalledger:status
+        id: PENDING
+    transactionDate: '2018-01-01T11:41:36.000Z'
+    transactionId: '121810321'
+    updatedPersonnel:
+      aliases:
+      - type: EXTERNAL
+        value: '1'
+      - assigningAuthority: 21.23.12.32.12
+        type: _NOT_RECOGNIZED
+        value: '1'
+      - assigningAuthority: 2.16.840.1.113883.4.6
+        type: NPI
+        value: '9740801920'
+      - type: _NOT_RECOGNIZED
+        value: FS9740805
+      - type: _NOT_RECOGNIZED
+        value: '1116998114'
+      fullName: SYSTEM, SYSTEM
+      providerId: '1'
+  generalLedgerInterfaces: []
+  lineItems: []
+  paymentDetail:
+  - changeDueAmount: '0.0'
+    paidAmount: '10.01'
+    paymentMethod:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20589
+        display: Cash
+        id: '627177'
+        translations:
+        - codingSystemId: 2.16.840.1.113883.5.4
+          display: Cash
+          id: CASH
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: CASH
+    paymentTrackingNumber: '11'
+    tenderedAmount: '10.01'
+  reason:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:18937
+      display: REVERSAL
+      id: '649387'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:reason
+        display: REVERSAL
+        id: REVERSAL
+    standard:
+      codingSystemId: 2.16.840.1.113883.5.4
+      id: REV
+  relatedTransactions: []
+  remittanceDate: '2018-01-01T06:00:00.000Z'
+  source:
+    id: '121810321'
+    normalizedEntityLocator:
+      entityKey: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/norm_charge_transaction:121810321
+      version: 0
+    rawEntityLocators:
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/transactions:121810321
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69890644
+      version: 0
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/gl_trans_log:69890642
+      version: 0
+    type: BILLING
+  transactionAlias: AUTO PAYMENT DEBIT
+  transactionDate: '2018-01-01T11:41:36.000Z'
+  transactionId: '121810321'
+  transactionSubType:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: Third Party Payment
+      id: '649401'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:subtype
+        display: Third Party Payment
+        id: 3RDPARTYPAY
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+      id: 3RDPARTYPAY
+  transactionType: PAYMENT
+  uid: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/account:23577834,std:txn_121810321
+- accountId: '23577834'
+  accountType: NON_AR_GL_ONLY
+  active: true
+  amount: '500.0'
+  chargeIds: []
+  generalLedgerActivities: []
+  generalLedgerInterfaces: []
+  lineItems: []
+  paymentDetail: []
+  reason:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:18937
+      display: Expected Reimbursement Debit
+      id: '626150'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:reason
+        display: Expected Reimbursement Debit
+        id: EXPREIMBDR
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:reason
+      id: EXPREIMBDR
+  relatedTransactions:
+  - reason:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25753
+        display: REVERSAL
+        id: '649935'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:transaction:relatedreason
+          display: REVERSAL
+          id: REVERSAL
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: REV
+    relatedTransactionId: '121915348'
+  - reason:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:25753
+        display: TRANSFER
+        id: '649936'
+        translations:
+        - codingSystemId: urn:cerner:codingsystem:transaction:relatedreason
+          display: TRANSFER
+          id: TRANSFER
+      standard:
+        codingSystemId: urn:cerner:codingsystem:transaction:relatedreason
+        id: TRANSFER
+    relatedTransactionId: '121915338'
+  remittanceDate: '2018-01-02T06:00:00.000Z'
+  source:
+    id: '121915253'
+    normalizedEntityLocator:
+      entityKey: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/norm_charge_transaction:121915253
+      version: 0
+    rawEntityLocators:
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/transactions:121915253
+      version: 0
+    type: BILLING
+  transactionAlias: EXPECTED ADJ DEBIT
+  transactionDate: '2018-01-02T12:01:05.000Z'
+  transactionId: '121915253'
+  transactionSubType:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: Expected reimbursement
+      id: '627134'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:subtype
+        display: Expected reimbursement
+        id: EXPREIMADJ
+    standard:
+      codingSystemId: 2.16.840.1.113883.6.96
+      id: '10321000175103'
+  transactionType: ADJUSTMENT
+  uid: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/account:23577834,std:txn_121915253
+- accountId: '23577834'
+  accountType: NON_AR_GL_ONLY
+  active: true
+  amount: '-59.99'
+  chargeIds: []
+  generalLedgerActivities: []
+  generalLedgerInterfaces: []
+  lineItems: []
+  paymentDetail: []
+  reason:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:18937
+      display: REVERSAL
+      id: '649387'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:reason
+        display: REVERSAL
+        id: REVERSAL
+    standard:
+      codingSystemId: 2.16.840.1.113883.5.4
+      id: REV
+  relatedTransactions: []
+  remittanceDate: '2018-01-02T06:00:00.000Z'
+  source:
+    id: '121915348'
+    normalizedEntityLocator:
+      entityKey: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/norm_charge_transaction:121915348
+      version: 0
+    rawEntityLocators:
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/transactions:121915348
+      version: 0
+    type: BILLING
+  transactionAlias: EXPECTED ADJ DEBIT
+  transactionDate: '2018-01-02T12:05:59.000Z'
+  transactionId: '121915348'
+  transactionSubType:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: Expected reimbursement
+      id: '627134'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:subtype
+        display: Expected reimbursement
+        id: EXPREIMADJ
+    standard:
+      codingSystemId: 2.16.840.1.113883.6.96
+      id: '10321000175103'
+  transactionType: ADJUSTMENT
+  uid: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/account:23577834,std:txn_121915348
+- accountId: '23577834'
+  accountType: NON_AR_GL_ONLY
+  active: true
+  amount: '-1.05'
+  chargeIds: []
+  generalLedgerActivities: []
+  generalLedgerInterfaces: []
+  lineItems: []
+  paymentDetail:
+  - changeDueAmount: '0.0'
+    paidAmount: '1.05'
+    paymentMethod:
+      raw:
+        codingSystemId: urn:cerner:coding:codingsystem:codeset:20589
+        display: Money Order
+        id: '685188'
+        translations:
+        - codingSystemId: 2.16.840.1.113883.5.4
+          display: Money Order
+          id: CHK
+      standard:
+        codingSystemId: 2.16.840.1.113883.5.4
+        id: CHK
+    paymentTrackingNumber: '8018'
+    tenderedAmount: '25.05'
+  reason:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:18937
+      display: REVERSAL
+      id: '649387'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:reason
+        display: REVERSAL
+        id: REVERSAL
+    standard:
+      codingSystemId: 2.16.840.1.113883.5.4
+      id: REV
+  relatedTransactions: []
+  remittanceDate: '2017-12-28T06:00:00.000Z'
+  source:
+    id: '121915741'
+    normalizedEntityLocator:
+      entityKey: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/norm_charge_transaction:121915741
+      version: 0
+    rawEntityLocators:
+    - entityKey: /source_id:24ee59ca-78b8-4f64-a849-317a5c0937a3/transactions:121915741
+      version: 0
+    type: BILLING
+  transactionAlias: AUTO PAYMENT DEBIT
+  transactionDate: '2018-01-02T12:16:02.000Z'
+  transactionId: '121915741'
+  transactionSubType:
+    raw:
+      codingSystemId: urn:cerner:coding:codingsystem:codeset:20549
+      display: Third Party Payment
+      id: '649401'
+      translations:
+      - codingSystemId: urn:cerner:codingsystem:transaction:subtype
+        display: Third Party Payment
+        id: 3RDPARTYPAY
+    standard:
+      codingSystemId: urn:cerner:codingsystem:transaction:subtype
+      id: 3RDPARTYPAY
+  transactionType: PAYMENT
+  uid: /partition:bdb58e34-8ce5-432a-9946-329dd2a1a816/account:23577834,std:txn_121915741
