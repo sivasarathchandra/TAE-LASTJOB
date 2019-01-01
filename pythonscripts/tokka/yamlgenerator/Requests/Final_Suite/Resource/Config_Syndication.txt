@@ -1,6 +1,0 @@
-URL=http://services.devhealtheintent.net/rc-dashboard-config-service/syndication_fields
-client_id=98527fb2-0c63-40ab-a0d3-5bb781723c49
-DB1=database.devhealtheintent.net
-UN=rc_config_svc
-PWD=rc_config_svc
-DBN=rcanalytics_config_service
