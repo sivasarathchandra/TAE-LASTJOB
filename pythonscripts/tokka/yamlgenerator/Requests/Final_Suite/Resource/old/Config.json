@@ -1,58 +1,58 @@
 {
   "Age_Categories_Dev": [
     "http://services.devhealtheintent.net/rc-dashboard-config-service/age_categories",
-    "50187c3d-b72c-4f7a-9a34-b2abe35be868",
+    "",
     "database.devhealtheintent.net",
     "rc_config_svc",
     "rc_config_svc",
     "rcanalytics_config_service",
-    "99bb308b-0a2b-4547-a967-b6287914469d",
-    "cHowMqwBMh2N4ShhBDrbcRZNLzo76VrA",
+    "",
+    "",
     "https://api.devcernercare.com/oauth/access"
   ],
     "organization_maps_Dev": [
     "http://services.devhealtheintent.net/rc-dashboard-config-service/organization_maps",
-    "50187c3d-b72c-4f7a-9a34-b2abe35be868",
+    "",
     "589723",
     "database.devhealtheintent.net",
     "rc_config_svc",
     "rc_config_svc",
     "rcanalytics_config_service",
-    "99bb308b-0a2b-4547-a967-b6287914469d",
-    "cHowMqwBMh2N4ShhBDrbcRZNLzo76VrA",
+    "",
+    "",
     "https://api.devcernercare.com/oauth/access"
   ],
   "Syndication_Dev": [
     "http://services.devhealtheintent.net/rc-dashboard-config-service/syndication_fields",
-    "98527fb2-0c63-40ab-a0d3-5bb781723c49",
+    "",
     "database.devhealtheintent.net",
     "rc_config_svc",
     "rc_config_svc",
     "rcanalytics_config_service",
-    "99bb308b-0a2b-4547-a967-b6287914469d",
-    "cHowMqwBMh2N4ShhBDrbcRZNLzo76VrA",
+    "",
+    "",
     "https://api.devcernercare.com/oauth/access"
   ],
   "Targets_Dev": [
     "http://services.devhealtheintent.net/rc-dashboard-config-service/targets",
-    "50187c3d-b72c-4f7a-9a34-b2abe35be868",
+    "",
     "database.devhealtheintent.net",
     "rc_config_svc",
     "rc_config_svc",
     "rcanalytics_config_service",
-    "99bb308b-0a2b-4547-a967-b6287914469d",
-    "cHowMqwBMh2N4ShhBDrbcRZNLzo76VrA",
+    "",
+    "",
     "https://api.devcernercare.com/oauth/access"
   ],
   "Config_items_Dev": [
     "http://services.devhealtheintent.net/rc-dashboard-config-service/config_items",
-    "50187c3d-b72c-4f7a-9a34-b2abe35be868",
+    "",
     "database.devhealtheintent.net",
     "rc_config_svc",
     "rc_config_svc",
     "rcanalytics_config_service",
-    "99bb308b-0a2b-4547-a967-b6287914469d",
-    "cHowMqwBMh2N4ShhBDrbcRZNLzo76VrA",
+    "",
+    "",
     "https://api.devcernercare.com/oauth/access"
   ]
 }
